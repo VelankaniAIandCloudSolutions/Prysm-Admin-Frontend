@@ -1,0 +1,78 @@
+.HowTo_searchbar1 {
+  display: flex;
+  width: 95;
+}
+.HowTo_searchbar1_select {
+  width: 32%;
+  height: 36px;
+  border-radius: 5px;
+  margin: 0 0 0 2%;
+}
+.HowTo_searchbar1_input {
+  width: 65%;
+  height: 35px;
+}
+
+.HowTo_searchbar2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0 0 0;
+}
+
+.HowTo_searchbar2_select {
+  width: 32%;
+  height: 36px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HowTo_type_div {
+  display: flex;
+  justify-content: end;
+}
+.HowTo_type_select {
+  width: 14%;
+  height: 32px;
+  padding: 0 0 0 1%;
+  border-radius: 5px;
+  margin: 2% 0% 0% 0%;
+}
+
+.HowTo_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.howToImageHedding {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.howToImageHedding_img {
+  height: 25px;
+  margin: 0 3px 0 0;
+}
+
+.HowTo_links {
+  margin: 2% 0 4% 0;
+}
+.howTo-noshow {
+  margin: 10px;
+}
+
+.driverSoftware_icon {
+  height: 30px;
+  font-size: 1.5em;
+  margin: 1% 5px 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .HowTo_link {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    font-size: 12px;
+  }
+}

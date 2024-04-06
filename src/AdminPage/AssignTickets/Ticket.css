@@ -1,0 +1,197 @@
+.ticketContainer {
+  background-color: white;
+  justify-content: center;
+}
+
+.Tickets_Table {
+  padding: 1% 0% 2% 0%;
+}
+
+.buttons_container {
+  padding: 2% 0 0 0%;
+  display: grid;
+
+  font-weight: bold;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+}
+
+.All_NoFilter_Button {
+  align-items: center;
+  justify-content: center;
+  border-top: 25px solid rgb(49, 22, 62);
+  width: 75%;
+  box-shadow: rgba(0, 0, 0, 0.24) -1px 2px 3px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #eeeeee80;
+  padding: 1%;
+}
+
+.customDiv1 {
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  border-top: 25px solid rgb(222, 135, 81);
+  box-shadow: rgba(0, 0, 0, 0.24) -1px 2px 3px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #eeeeee80;
+  padding: 1%;
+  font: bold;
+}
+
+.customDiv2 {
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  box-shadow: rgba(0, 0, 0, 0.24) -1px 2px 3px;
+  height: 70px;
+  border-top: 25px solid rgb(88, 32, 41);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #eeeeee80;
+  padding: 1%;
+  font: bold;
+}
+
+.customDiv3 {
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  box-shadow: rgba(0, 0, 0, 0.24) -1px 2px 3px;
+  height: 70px;
+  border-top: 25px solid rgb(167, 50, 67);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #eeeeee80;
+  padding: 1%;
+  font: bold;
+}
+
+.All_Button_count_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+
+.open_count_div {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+
+.In-process_count_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+
+.Closed_count_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+
+.ticket-details-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.Ticket_Div {
+  width: 98%;
+  padding: 0 0% 0 1%;
+}
+.Ticket_Heading {
+  margin: 0%;
+  padding: 3% 0 0 0;
+}
+
+.Status-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 85px;
+  border-radius: 50px;
+}
+
+.filterDropdownsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  text-align: left;
+  margin: 2% 2% 1% 0%;
+  height: 70px;
+}
+
+.levelFilter,
+.AssigedToFilter,
+.statusFilter {
+  height: 35px;
+  margin: 10px 0 0 0;
+}
+
+.levelFilterContainer,
+.AssigedToFilterContainer,
+.statusFilterContainer {
+  height: 35px;
+}
+.Assign-btn {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 10px 0;
+}
+
+.Assign-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.ticketAssignButton {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+.Assign-add-button-container {
+  text-align: end;
+}

@@ -1,0 +1,232 @@
+.Container-head {
+  background-color: white;
+}
+
+.header-mask {
+  padding: 30px;
+  background-image: url("https://support.lenovo.com/esv4/img/parts-lookup-banner.09e4231f.png");
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.partlookup-header-title {
+  font: normal normal 700 34px/41px Lato;
+  color: white;
+  margin-top: 45px;
+}
+
+.header-description {
+  margin-top: 12px;
+  margin-right: 40px;
+  width: 408px;
+  font: normal normal normal 16px/23px Lato;
+  color: white;
+}
+
+.Box-header {
+  text-align: center;
+}
+.top-left-paragraph {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.partlookup_searchbar_button {
+  display: flex;
+  color: #fff;
+  padding: 0px 0px 0px 30px;
+  width: 336px;
+  height: 55px;
+  background: #294e95;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.partlookup-searchbar {
+  display: flex;
+  width: 130%;
+}
+
+.select-button {
+  display: flex;
+  height: 45px;
+  width: 250px;
+  border-radius: 4px;
+  background-color: cornflowerblue;
+  margin-left: 10px;
+}
+.partlookup-ContactUs_top {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f5f5f5;
+  padding: 10px 40px;
+  margin-right: 25px;
+  margin-left: 25px;
+  background-color: #f5f5f5;
+}
+.inline-divider-or {
+  margin-top: 65px;
+  margin-left: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #e9ebed;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #090606;
+  font-size: 18px;
+}
+.Content-Lookup {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 160px 0;
+}
+.box-lookup {
+  display: flex;
+  border: 1px solid #c0adad;
+  align-items: center;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 1.6rem 0.7rem;
+  margin: 10px;
+  height: 150px;
+  border-radius: 8px;
+  width: 265px;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+.box-lookup:hover {
+  border-color: #cfd5dc;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.content-intruduce {
+  border: 1px solid rgb(218, 218, 218);
+  background-color: #f5f5f5;
+  padding: 1% 1% 2% 2%;
+  margin: 3% 1.5% 0 1.5%;
+}
+.icon-lookup {
+  align-items: center;
+  margin-right: 5px;
+  font-size: 50px;
+  color: #0d5c91;
+  margin-top: 2%;
+}
+.Lap-icon {
+  margin-left: 60px;
+  margin-top: 12px;
+  font-size: 24px;
+}
+.item-list {
+  list-style: outside none;
+  margin-left: -24px;
+}
+.faq-item {
+  border-bottom: 1px solid #333;
+  margin-top: 2px;
+  text-shadow: 20px;
+}
+.chevron-icon {
+  float: right;
+  margin-right: 20px;
+}
+.parts-box-content {
+  white-space: normal;
+  color: #555;
+  font: normal normal normal 14px/20px Lato;
+  font-size: medium;
+}
+.seo-content_question {
+  padding: 1% 1% 2% 2%;
+  border: 0 solid rgb(218, 218, 218);
+}
+
+.ContactUs {
+  background-color: #f5f5f5;
+}
+
+.partaLookupDropdown-input {
+  width: 98%;
+  height: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-mask {
+    padding: 15px;
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+
+  .partlookup-header-title {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .header-description {
+    width: 100%;
+    margin: 12px 0;
+    font-size: 14px;
+  }
+  .intro_text {
+    width: 100%;
+    margin: 10px 10px;
+  }
+  .partlookup-ContactUs_top {
+    display: inline;
+  }
+  .partlookup_searchbar_button {
+    width: 100%;
+    margin: 10px 10px;
+  }
+
+  .Content-Lookup {
+    flex-direction: column;
+    margin: 20px;
+    width: 100%;
+  }
+
+  .box-lookup {
+    width: 100%;
+    margin: 10px 0;
+    height: auto;
+  }
+
+  .icon-lookup {
+    font-size: 40px;
+    margin: 5px auto;
+  }
+
+  .Lap-icon {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 18px;
+  }
+
+  .content-intruduce {
+    margin: 10px 0;
+    padding: 5% 5% 10% 5%;
+  }
+
+  .faq-item {
+    margin-top: 5px;
+  }
+
+  .chevron-icon {
+    float: none;
+    margin: 10px auto;
+  }
+
+  .parts-box-content {
+    font-size: 12px;
+  }
+
+  .seo-content_question {
+    padding: 5% 5% 10% 5%;
+  }
+
+  .ContactUs-top {
+    flex-direction: column;
+    padding: 10px;
+  }
+}

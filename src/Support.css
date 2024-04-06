@@ -1,0 +1,108 @@
+.SUPPORT {
+  display: flex;
+  height: 100%;
+  background-color: #fff;
+}
+
+.SupportleftContainer {
+  width: 25%;
+  text-align: center;
+  margin: 3% 0% 0% 0%;
+}
+
+.support-Img-Div {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 52%;
+}
+
+.SupportleftContainer-img {
+  height: 160px;
+  width: auto;
+}
+
+.Supportleft_paragraph {
+  font-size: 25px;
+  padding: 0 0 0 7%;
+}
+
+.LeftSupportInput {
+  height: 35px;
+  width: 80%;
+  margin: 0 0 0 5%;
+}
+
+.Supportright_Container {
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3%;
+  padding-right: 6%;
+}
+
+.LeftNavigation_Buttons {
+  text-align: start;
+  width: 82%;
+  padding: 2% 1% 0 11%;
+}
+
+.LeftNavigation_button.active {
+  border-color: blue;
+  color: blue;
+}
+
+.LeftNavigation_button {
+  border-right: 5px solid white;
+  background-color: white;
+  font-size: 16px;
+  width: 91%;
+  text-align: left;
+  padding: 5% 0% 5% 0%;
+}
+
+.LeftNavigation_button:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.LeftNavigation_button {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.LeftNavigationButtonBorderDiv {
+  border-bottom: 2px solid #35555a70;
+}
+
+.LeftNavigationButton {
+  border-top: 2px solid #35555a70;
+}
+
+.LeftNavigationButton:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .SUPPORT {
+    display: block;
+    height: 100%;
+    background-color: #fff;
+  }
+
+  .SupportleftContainer {
+    width: 90%;
+    text-align: center;
+  }
+
+  .Supportright_Container {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  .referenceinfo,
+  .Tools {
+    font-size: 12px;
+  }
+}

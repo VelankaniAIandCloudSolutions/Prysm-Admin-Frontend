@@ -1,0 +1,61 @@
+.Troubleshooting_elements {
+  padding: 2% 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Troubleshooting_element {
+  margin: 6%;
+  border: 1px solid rgb(218, 218, 218);
+  height: 140px;
+  width: 87%;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+.Troubleshooting_element:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.29);
+  cursor: pointer;
+}
+
+.Troubleshooting_element_img {
+  height: 45px;
+  margin-top: 20px;
+}
+
+.TrubleShooting_Icon {
+  height: 30px;
+  margin: 7% 0 0 0;
+  font-size: xx-large;
+}
+
+.troubleShootingImageHeading {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.trubleShootIcon {
+  font-size: 1.5em;
+  margin: 2px 1% 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Troubleshooting_element {
+    margin: 2%;
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 218, 218);
+    min-width: 150px;
+    font-size: 12px;
+  }
+
+  .Troubleshooting_elements {
+    padding: 2% 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,223 @@
+.productCategory-image-uploader {
+  border: 2px dashed #ccc;
+  text-align: center;
+  width: 95%;
+  height: 213px;
+  border-radius: 5px;
+}
+.productCategory-file-input-label {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.productCategory-uploadImageHeading {
+  margin: 2% 0;
+  color: #546271;
+  font-weight: 600;
+}
+.productCategory-image-uploader-heading {
+  margin: 0%;
+  padding: 3%;
+  color: blue;
+}
+.productCategory-dropped-files {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productCategory-file-info-image {
+  margin: 5px;
+}
+.productCategory-file-info {
+  text-align: center;
+}
+.productCategory-delete-image-button-container {
+  height: 25px;
+  background-color: rgb(249, 103, 103);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 5px 5px;
+}
+.productCategory-delete-image-button {
+  border: none;
+  background: none;
+  width: 100%;
+  height: 25px;
+  color: #fff;
+}
+
+.productCategory-chechBox_labelclass {
+  width: 30%;
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.productCategory-Checkbox {
+  margin: 7px 0 0 0;
+}
+
+.productCategory-imagesAndFields {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.productCategoryInputFields {
+  min-width: 50%;
+}
+
+.productCategory-modalWidthClass {
+  min-width: 50%;
+}
+
+.productCategory-imageUploaderDiv {
+  text-align: center;
+  width: 45%;
+  margin: 0 0 0 3%;
+}
+.productCategory-Modal-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  margin: 10px;
+  border: none;
+}
+.productCategory-Modal-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.productCategory-close-btn {
+  font-size: 16px;
+  height: 35px;
+  min-width: 80px;
+  border: 2px solid #ad2128;
+  color: black;
+  border-radius: 4px;
+  background: none;
+  margin: 10px;
+}
+.productCategory-close-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.productCategory-footer-modal {
+  color: white;
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+}
+.productCategory-header-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  color: black;
+  background-color: #f9cbb5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+}
+.productCategory-Inputsfields {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+}
+.productCategory-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+.productCategory-dropdown-input {
+  width: 98%;
+  height: 35px;
+}
+.productCategory-textbox-input {
+  width: 95%;
+  font-weight: 400;
+  height: 35px;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.productCategory-textbox-input:focus {
+  outline: 1px solid rgb(201, 200, 200);
+}
+
+.productCategory-textbox-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.productCategory-add-button-container {
+  text-align: end;
+}
+.productCategory-Modal {
+  z-index: 111 !important;
+  display: block !important;
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.productCategory-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  width: 25% !important;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  z-index: 999;
+}
+.productCategory-header-title {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+}
+.productCategory-modal-open-btn {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.productCategory-modal-open-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.productCategory-container {
+  margin: 0 1% 0 1%;
+}
+
+.productcategory-dropdown-input{
+  width: 98%;
+}

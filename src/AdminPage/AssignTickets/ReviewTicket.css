@@ -1,0 +1,261 @@
+.ReviewTicket-container {
+  background-color: white;
+  height: 100%;
+}
+
+.ReviewTicket {
+  width: 95%;
+  margin: 0 0 0 0;
+  border: 1px solid #e57430;
+  height: 102vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.Assigned_value_div {
+  padding: 1%;
+  margin: 1% 0 0 0;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 4px;
+  height: 80px;
+  width: 95%;
+}
+
+.ReviewTicket-button-div {
+  width: 96%;
+  text-align: end;
+  padding: 0.5%;
+}
+
+.ReviewTicket_container_div {
+  width: 95%;
+  padding: 0 2.5% 0 2.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Email_Header_And_button_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mailheading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewTicketMail {
+  padding: 1%;
+  margin: 2% 1% 2% 0%;
+  border-left: 3px solid rgb(20, 201, 20);
+  font-size: 0.75rem;
+}
+
+.ReviewTicket_Email_div {
+  border: 1px solid #e57430;
+  padding: 1%;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.Comments_submit_Button {
+  width: 96%;
+  padding: 1%;
+  text-align: right;
+  margin: 8vh 0 0 0;
+}
+
+.reviewTicketComment {
+  padding: 1%;
+  margin: 2% 1% 2% 0%;
+  border-left: 3px solid rgb(221 114 46);
+  font-size: 0.75rem;
+}
+
+.Name_GenerationDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 4px;
+  margin: 0 0 1% 0;
+  height: 40px;
+  width: 95%;
+}
+
+.Ticket_description {
+  padding: 1%;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 4px;
+  height: 80px;
+  width: 95%;
+}
+
+.ReviewTicket_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 5% 1% 5%;
+  height: 35px;
+}
+
+.Label_value {
+  display: flex;
+  align-items: center;
+}
+
+.ReviewTicket-container_heading {
+  margin: 0%;
+}
+
+.ReviewTicket_header_div {
+  width: 40%;
+  padding: 0 0 0 4%;
+  align-items: baseline;
+}
+
+.NameStatus_div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5%;
+  height: 40px;
+}
+
+.informationContainerDiv {
+  height: 39vh;
+}
+
+.infoButtonsContainer {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  background-color: #e57430;
+  border: 2px solid #e57430;
+  border-radius: 5px 5px 0 0;
+}
+
+.reviewTicketInfoButton {
+  border: none;
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.reviewTicketInfoButton :hover {
+  color: blue;
+}
+
+.infoInnerDivLabel {
+  font-weight: 600;
+}
+
+.reviewTicketInfoDiv1 {
+  overflow: scroll;
+  height: 33vh;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 4px;
+}
+
+.reviewTicketInfoDiv2 {
+  overflow: scroll;
+  height: 33vh;
+  border: 1px solid rgb(201 200 200);
+  border-radius: 4px;
+}
+
+.reviewTicketInfoDiv3 {
+  overflow: scroll;
+  height: 33vh;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.infoContainerDiv {
+  margin: 2% 1%;
+}
+
+.infoInnerDiv {
+  display: grid;
+  grid-template-columns: 3fr 1fr 6fr;
+  padding: 0 0 0 3%;
+  align-items: center;
+  height: 40px;
+}
+
+.reviewTicketChatContainer {
+  overflow: scroll;
+  height: 96.6vh;
+}
+
+.Reviwed_button {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+  width: auto;
+}
+
+.Reviwed_button:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.QuillEditor-Div {
+  margin: 0 1% 0 1%;
+}
+
+.Dropdown_ReviewTicket {
+  margin: 0 1% 1% 1%;
+}
+
+.ReviewTicketTextarea {
+  width: 99%;
+  margin: 0.25em 0 0 0;
+}
+
+.commentArea_label {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+  margin: 0.5em 0 0.5em 0;
+}
+.statusLabelCommentArea {
+  padding: 0 0 0 1.5%;
+}
+.etiLableReviewTicket {
+  padding: 1% 0 0 1.5%;
+}
+
+.commentReviewTicketArea {
+  margin: 0.25em 0;
+}
+
+.textInputReviewTicket {
+  padding: 0 10px 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  width: 95%;
+  margin: 0 1%;
+  height: 35px;
+}
+
+.textInputReviewTicket:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.textInputReviewTicket:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}

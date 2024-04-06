@@ -1,0 +1,264 @@
+.dGroupAddButtonDiv {
+  text-align: end;
+}
+
+.dGroupModalOpenBtn {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.dGroupModalOpenBtn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.dGroupProductModal {
+  z-index: 111 !important;
+  display: block !important;
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dGroupHeader-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  color: black;
+  background-color: #f9cbb5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+}
+
+.dGroupHeaderTitle {
+  margin: 0;
+}
+
+.dGroupDivDisplay {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+}
+
+.dGroupLabelClass {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+
+.dGroupTextboxInput_1 {
+  width: 95%;
+  font-weight: 400;
+  height: 35px;
+}
+
+.dGroupTextInput {
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.dGroupTextInput:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+
+.dGroupTextInput:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.dGroupModalCheckboxDiv {
+  display: flex;
+  justify-content: left;
+  padding: 5px 10px 0 0;
+}
+
+.dGroupCheckBoxLabelClass {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dGroupModalCheckbox {
+  margin: 0 25px 0 15px;
+}
+
+.dGroupFooter-modal {
+  color: white;
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.dGroupModal-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  margin: 10px;
+  border: none;
+}
+
+.dGroupModal-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.dGroupModal-btn:disabled {
+  background-color: #82b1cd;
+  color: white;
+  box-shadow: none;
+  opacity: 0.1;
+}
+
+.dGroupClose-btn {
+  font-size: 16px;
+  height: 35px;
+  min-width: 80px;
+  border: 2px solid #ad2128;
+  color: black;
+  border-radius: 4px;
+  background: none;
+  margin: 10px;
+}
+.dGroupClose-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.dGroupTable-body {
+  padding: 0.3rem;
+}
+
+.dGroupTable-scroll {
+  border: 3px solid #f9cbb5;
+  border-radius: 10px;
+}
+
+.dGroupImageUploaderDiv {
+  text-align: center;
+  width: 45%;
+  margin: 0 0 0 3%;
+}
+
+.dGroupUploadImageHeading {
+  margin: 2% 0;
+  color: #546271;
+  font-weight: 600;
+}
+
+.dGroupImage-uploader {
+  border: 2px dashed #ccc;
+  text-align: center;
+  width: 95%;
+  height: 213px;
+  border-radius: 5px;
+}
+
+.dgroupFile-input-label {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dgroupImage-uploader-heading {
+  margin: 0%;
+  padding: 3%;
+  color: blue;
+}
+
+.dGroupDropped-files {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dGroupFile-info-image {
+  margin: 5px;
+  width: 200px;
+}
+.dGroupFile-info {
+  text-align: center;
+}
+
+.dGroupDeleteImageBtnDiv {
+  height: 25px;
+  background-color: rgb(249, 103, 103);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 5px 5px;
+}
+
+.dGroupDeleteImageBtn {
+  border: none;
+  background: none;
+  width: 100%;
+  height: 25px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 769px) {
+  .dGroupTable-body {
+  }
+  .status-div {
+    margin: 0 0 0 10px;
+    display: flex;
+  }
+
+  .dGroupProductModal {
+    z-index: 111 !important;
+    display: block !important;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .dGroupModal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    width: 50% !important;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+  .dGroup-container {
+    margin: 0 1% 0 1%;
+  }
+}

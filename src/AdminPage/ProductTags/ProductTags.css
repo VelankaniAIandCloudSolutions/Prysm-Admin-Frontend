@@ -1,0 +1,154 @@
+.productTagsCheckbox {
+  margin-top: 7px;
+}
+.productTags-close-btn {
+  font-size: 16px;
+  height: 35px;
+  min-width: 80px;
+  border: 2px solid #ad2128;
+  color: black;
+  border-radius: 4px;
+  background: none;
+  margin: 10px;
+}
+.productTags-Add-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  margin: 10px;
+  border: none;
+}
+.productTags-footer-modal {
+  color: white;
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+}
+.productTags-header-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  color: black;
+  background-color: #f9cbb5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+}
+.productTags-header-title {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+}
+.productTags-modal-open-btn {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+.productTags-modal-open-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.productTags-add-button-container {
+  text-align: end;
+}
+.productTags-container {
+  margin: 0 1% 0 1%;
+}
+.productTags-Inputsfields {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+}
+.productTags-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+.productTags-Inputs {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+}
+.productTags-dropdown-input {
+  width: 98%;
+  height: 35px;
+}
+.productTags-Modal {
+  z-index: 111 !important;
+  display: block !important;
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.productTags-textbox-input {
+  width: 95%;
+  font-weight: 400;
+  height: 35px;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.productTags-textbox-input:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+
+.productTags-textbox-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+.productTags-modal-checkbox-div {
+  display: flex;
+  justify-content: left;
+  padding: 5px 10px 0 0;
+}
+.productTags-modalCheckbox {
+  margin: 0 25px 0 15px;
+}
+.productTags-Modal-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  margin: 10px;
+  border: none;
+}
+.productTags-modalContainer {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  width: 30% !important;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}

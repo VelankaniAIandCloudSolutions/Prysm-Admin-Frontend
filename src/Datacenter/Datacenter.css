@@ -1,0 +1,250 @@
+.datacenterdiv {
+  text-align: center;
+  background-image: url("/src/assets/images/_tech_support.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.datacentertop {
+  background: none;
+  color: white;
+  height: 140px;
+}
+
+.datacentertop h1 {
+  padding: 1%;
+  margin: 0%;
+}
+
+.datacenterBottom {
+  background-color: white;
+}
+
+.productContainer {
+  margin: 0 10% 0 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ResourceContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 5% 0 5%;
+}
+
+.product {
+  border: 1px solid rgb(218, 218, 218);
+  height: 120px;
+  margin: 2% auto;
+  background: none;
+  border-radius: 8px;
+  min-width: 200px;
+  color: rgb(58, 58, 58);
+}
+
+.resource {
+  min-width: 150px;
+  max-width: 215px;
+  margin: 1%;
+  background: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.resource:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.29);
+  cursor: pointer;
+}
+
+.resource.inactive {
+  cursor: no-drop;
+}
+
+.button_In_Resource {
+  border-radius: 2px;
+  border: 1px solid rgb(224, 222, 222);
+  padding: 6px;
+  background: none;
+  transition: background-color 0.2s;
+  margin: 6px 0 0 0;
+}
+.button_In_Resource:hover {
+  background-color: rgb(222, 220, 220);
+}
+
+.dataCenter_Product_Image {
+  height: 30px;
+  margin: 7% 0 0 0;
+  font-size: xx-large;
+}
+
+.resource_Image {
+  height: 30px;
+  font-size: xx-large;
+  margin: 0 0 5% 0;
+}
+
+.resource_dull_paragraph {
+  font-weight: bold;
+  font-size: 14px;
+  color: #0000004d;
+  margin-top: 6px;
+  height: 40px;
+}
+
+.product:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.29);
+  cursor: pointer;
+}
+
+.product.inactive {
+  cursor: no-drop;
+}
+
+.product_Image {
+  height: 30px;
+  margin: 5% 0 0 0;
+}
+
+.datacenterbutton_container {
+  text-align: left;
+  margin: 0 0 0 5%;
+}
+
+.datacenterbutton {
+  padding: 5px 0 0 0;
+  font-size: x-small;
+  border: none;
+  background: none;
+  color: rgb(255, 255, 255);
+}
+
+.datacenterbutton:hover {
+  color: rgb(101, 135, 245);
+  cursor: pointer;
+}
+
+.datacenter_dropdowns {
+  display: flex;
+  justify-content: center;
+}
+
+.dataCenterDropdown {
+  padding: 0 2% 0 2%;
+  width: 40%;
+}
+
+.React_select_dropdown {
+  outline: none;
+}
+
+.React_select_dropdown:focus {
+  outline: none;
+}
+
+.dropdown-container {
+  position: relative;
+  margin: 15px;
+}
+
+.dropdown-container.open {
+  opacity: 1;
+  max-height: 1000px;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.dataCenterProductcontainer {
+  background: white;
+}
+
+.resource.inactive {
+  opacity: 50%;
+}
+
+.resource_title {
+  font-weight: 600;
+  margin: 5px;
+}
+
+.datacenterSearchDiv {
+  margin: 5px 5% 0 5%;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  text-align: left;
+}
+
+.searchDropdownDiv {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.searchDropdownImage {
+  height: 60px;
+  width: 60px;
+  margin: 1px 1% 1px 5px;
+  border-radius: 1px;
+}
+
+.searchDropdownName {
+  color: black;
+  margin: 0 0 0 16px;
+}
+
+.Input_icon {
+  color: white;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 8px 0 0;
+}
+
+.ribbon {
+  z-index: 40;
+  height: 120px;
+  position: absolute;
+  background: url(../assets/images/datacenter.jpg);
+  background-size: cover;
+  text-transform: uppercase;
+  color: white;
+  opacity: 50%;
+  width: 10%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.dataCenter_ribbon3 {
+  position: relative;
+  top: 17px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(247, 115, 115);
+  text-align: center;
+  color: white;
+  margin: 0%;
+  border-radius: 0 0 8px 8px;
+}
+
+.datacenterBottom_Heading {
+  padding: 15px 0 0 0;
+}
+@media only screen and (max-width: 600px) {
+  .dropdown-container {
+    position: absolute;
+    top: 50%;
+    background: #f3f3f3;
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    font-size: 12px;
+  }
+}

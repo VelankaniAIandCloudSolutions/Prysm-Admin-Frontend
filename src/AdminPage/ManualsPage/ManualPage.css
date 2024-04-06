@@ -1,0 +1,231 @@
+.imageUploaderContainer {
+  margin: 0 2%;
+}
+
+.manual-submain-div {
+  padding: 3% 0 0 0;
+  display: flex;
+}
+
+.manual-Inputfields {
+  display: grid;
+  width: 85%;
+  padding: 10px;
+}
+
+.manual-textbox-input {
+  font-weight: 400;
+  height: 35px;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.manual-textbox-input:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+
+.manual-textbox-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.manual-checkBoxes {
+  padding: 20px 10px 0px 10px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  min-height: 35px;
+}
+
+.manual-content-div {
+  margin: 0 2%;
+}
+
+
+
+.manual-Raw-Content{
+  display: grid;
+  padding: 10px;
+}
+
+.manual-submitButtondiv {
+  margin: 1% 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.manual-container {
+  margin: 0 1% 0 1%;
+}
+
+.ManualsFlexDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  margin: 0 2% 0 0;
+}
+
+.manual-add_button-container {
+  text-align: end;
+}
+
+.manual-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  margin: 0 2%;
+  border: none;
+}
+.manual-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.manual-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+
+.manual-content-input {
+  font-weight: 400;
+  height: 100vh;
+  overflow: scroll;
+  padding: 1%;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.manual-content-input:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+
+.manual-content-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+
+.manual-Raw-content-input {
+  font-weight: 400;
+  height: 45vh;
+  overflow: scroll;
+  padding: 1%;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.manual-Raw-content-input:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+
+.manual-Raw-content-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.manual-delete-image-button {
+  border: none;
+  background: none;
+  width: 100%;
+  height: 25px;
+  color: #fff;
+}
+
+.manual-delete-image-button-container {
+  height: 25px;
+  background-color: rgb(249, 103, 103);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manual-dropped-files {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.manual-file-info {
+  text-align: center;
+}
+
+.manual-file-input-label {
+  height: 200px;
+}
+
+.manual-image-uploader-heading {
+  margin: 0%;
+  padding: 3%;
+  color: blue;
+}
+
+.manual-image-uploader {
+  border: 2px dashed #ccc;
+  text-align: center;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.manual-uploadImageHeading {
+  margin: 2% 0;
+  color: #546271;
+  font-weight: 600;
+}
+
+.manual-imageUploaderDiv {
+  text-align: center;
+}
+
+.manual-modal-open-btn {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.manual-modal-open-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.manual_mainFlexDiv{
+  display: flex;
+}
+.manual-main-div {
+  margin: 0 2%;
+}
+
+.manual-Image-fields {
+  display: grid;
+  padding: 10px;
+}
+
+.manualstatus-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.manual-modalCheckbox {
+  margin: 0 25px 0 15px;
+}
+.manuals_Table-body {
+  overflow: hidden;
+}
+.manuals_table-scroll {
+  border: 3px solid #f9cbb5;
+  border-radius: 10px;
+}

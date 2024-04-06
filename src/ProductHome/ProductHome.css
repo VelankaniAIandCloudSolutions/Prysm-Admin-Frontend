@@ -1,0 +1,104 @@
+.productHome {
+  overflow-y: auto;
+  margin: 0% 0% 2% 0%;
+}
+
+.productHomeTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.producthometop_button {
+  height: fit-content;
+}
+
+.productHomeImageHedding {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.productHome_info_row1 {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  align-items: center;
+}
+
+.product_info_row2 {
+  display: none;
+
+  text-align: left;
+  justify-content: space-between;
+  margin: 4% 0 2% 0;
+}
+
+.productHome_info {
+  border: 2px solid #35555a70;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.referenceInfo {
+  width: 40%;
+  height: 225px;
+  border: 2px solid #35555a70;
+  padding: 0 4% 0 4%;
+  border-radius: 5px;
+}
+
+.productHomeTools {
+  width: 40%;
+  height: 225px;
+  border: 2px solid #35555a70;
+  padding: 0 4% 0 4%;
+  border-radius: 5px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+
+.show-button {
+  transition: transform 0.3s ease-in-out;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.productHomeWarranty {
+  margin-bottom: 10%;
+}
+
+.warranty_heading {
+  border-top: 1px solid;
+  padding-top: 15px;
+}
+
+.producthomeHelp_button {
+  margin: 5px;
+}
+
+.edit_product_dropdown {
+  border: none;
+  height: 20px;
+  margin: 0 0 3% 0;
+}
+
+.productHomeLabel {
+  font-weight: 700;
+  color: #0026ff96;
+}
+
+.productHome_infoRightDiv {
+  margin: 7% 0 0 0;
+}

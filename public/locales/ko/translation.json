@@ -1,0 +1,169 @@
+{
+    "productFamily": [
+      {
+        "productFamilyId": 1,
+        "productTitle": "PC",
+        "productDescription": "노트북, 태블릿, 데스크탑, 워크 스테이션, 모니터, 독 및 액세서리"
+        
+      },
+      {
+        "productFamilyId": 2,
+        "productTitle": "데이터 센터",
+        "productDescription": "서버, 스토리지, 네트워크"
+        
+      },
+      {
+        "productFamilyId": 3,
+        "productTitle": "휴대폰",
+        "productDescription": "Velankani, 모바일 장치"
+        
+      },
+      {
+        "productFamilyId": 4,
+        "productTitle": "Smart",
+        "productDescription": "AR / VR, 스마트 홈 및 스마트 오피스, 스마트 구매"
+        
+      }
+    ],
+    "homePage": {
+      "pageTitle": "Velankani 기술 지원에 오신 것을 환영합니다",
+      "titleDescription": "드라이버, 업데이트, 사용 방법 가이드, 기술 도움말 등",
+      "groupHeading": "제품군 선택"
+    },
+    "footer": {
+      "social": [
+        {
+          "icon": "twitter.png",
+          "link": "abcd"
+        },
+        {
+          "icon": "",
+          "link": ""
+        }
+        
+      ],
+      "links": [
+        {
+          "groupName": "Velankani 소개",
+          "groupItems": [
+            {
+              "linkName": "글로벌 레노버",
+              "link": ""
+              
+            },
+            {
+              "linkName": "뉴스종합",
+              "link": ""
+              
+            },
+            {
+              "linkName": "사회적인 책임(영문)",
+              "link": ""
+              
+            },
+            {
+              "linkName": "투자 정보(영문)",
+              "link": ""
+              
+            },
+            {
+              "linkName": "레 노 버 채용",
+              "link": ""
+              
+            }
+          ]
+        },
+        {
+          "groupName": "제품",
+          "groupItems": 
+          [
+            {
+              "linkName": "노트북 및 울트라북",
+              "link": ""
+            },
+            {
+              "linkName": "데스크탑",
+              "link": ""
+            },
+            {
+              "linkName": "태블릿",
+              "link": ""
+            },
+            {
+              "linkName": "워크스테이션",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "groupName": "지원",
+          "groupItems": [
+            {
+              "linkName": "드라이버 및 소프트웨어",
+              "link": ""
+            },
+            {
+              "linkName": "문서",
+              "link": ""
+            },
+            {
+              "linkName": "인기 도움말",
+              "link": ""
+            },
+            {
+              "linkName": "보증 조회",
+              "link": ""
+            },
+            {
+              "linkName": "서비스 문의하기",
+              "link": ""
+            }
+           
+          ]
+        },
+        {
+          "groupName": "주요 사이트",
+          "groupItems": [
+            {
+              "linkName": "총판 및 판매처 안내",
+              "link": ""
+            },
+            {
+              "linkName": "LenovoVision 제품 비디오",
+              "link": ""
+            },
+            {
+              "linkName": "레노버클럽",
+              "link": ""
+            },
+            {
+              "linkName": "제품 규격 (PSREF)",
+              "link": ""
+            },
+            {
+              "linkName": "환경 정보(영문)",
+              "link": ""
+            }
+            
+          ]
+        }
+      ],
+      "copyrights": "© 2023 Velankani. 모든 권리 보유",
+      "bottomLinks": [
+        {
+          "title": "이용 약관 ",
+          "link": ""
+        },
+        {
+          "title": "개인 정보 보호 정책",
+          "link": ""
+        }
+      ]
+    },
+    "header": {
+      "home":"Home",
+      "support":"지원",
+      "admin":"관리자",
+      "myaccount":"나의 계정"
+    }
+  }

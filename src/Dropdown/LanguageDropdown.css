@@ -1,0 +1,15 @@
+.language-dropdown {
+    display: inline-block;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    
+  }
+  
+  .lang-dd-select {
+    padding: 1px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+  }
+  

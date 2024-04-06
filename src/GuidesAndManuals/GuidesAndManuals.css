@@ -1,0 +1,63 @@
+.GuidesAndManuals_div1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0 0 0;
+}
+.GuidesAndManuals_div1_select {
+  width: 31.5%;
+  height: 35px;
+  border-radius: 5px;
+}
+.GuidesAndManuals_div1_input {
+  width: 31.5%;
+  height: 35px;
+}
+
+.GuidesAndManuals_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.GuidesAndManualsImageHedding {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.GuidesAndManualsImageHedding_img {
+  height: 25px;
+  margin: 0 3px 0 0;
+}
+
+.GuidesAndManuals_div2 {
+  text-align: end;
+  display: flex;
+  justify-content: end;
+}
+.GuidesAndManuals_div2_select {
+  width: 10%;
+  margin: 2% 0% 0% 0%;
+}
+
+.GuidesAndManuals_links {
+  margin: 0 0 4% 0;
+}
+.guidesManauls-noshows {
+  margin: 10px;
+}
+
+.GuidesAndManuals_icon {
+  height: 30px;
+  font-size: 1.5em;
+  margin: 1% 5px 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .GuidesAndManuals_link {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    font-size: 12px;
+  }
+}

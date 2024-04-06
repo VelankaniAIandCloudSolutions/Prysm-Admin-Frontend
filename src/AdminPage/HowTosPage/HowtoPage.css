@@ -1,0 +1,150 @@
+.howTo-InputFields {
+  display: flex;
+}
+
+.howToRightContainer {
+  width: 48%;
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.howTo-textbox-input {
+  font-weight: 400;
+  height: 35px;
+  overflow: scroll;
+  padding: 1%;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.howTo-textbox-input:focus {
+  outline: 1px solid rgb(201, 200, 200);
+}
+
+.howTo-textbox-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.howTo-submitButtondiv {
+  margin: 1% 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.Howto-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  margin: 0 1%;
+  border: none;
+}
+
+.Howto-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.Howto-textfields {
+  display: grid;
+  width: 30%;
+  padding: 10px;
+}
+.Howto-Content-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Howto-Content {
+  display: grid;
+  padding: 10px;
+}
+.Howto-checkBoxes {
+  padding: 20px 10px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  min-height: 35px;
+}
+.Howto-modalCheckbox {
+  margin: 0 25px 0 15px;
+}
+.Howto-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+.Howto-container {
+  margin: 0 1% 0 1%;
+}
+.Howto-add-button-container {
+  text-align: end;
+}
+.Howto-modal-open-btn {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+.Howto-modal-open-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.Howto-container {
+  margin: 0 1% 0 1%;
+}
+.Howto-checkBox-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Howto-modalCheckbox {
+  margin: 0 25px 0 15px;
+}
+.howTo-content-input {
+  font-weight: 400;
+  height: 45vh;
+  overflow: scroll;
+  padding: 1%;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.howTo-content-input:focus {
+  outline: 1px solid rgb(201, 200, 200);
+}
+
+.howTo-content-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.howTo-container {
+  margin: 0 1% 0 1%;
+}
+
+.howTo_Table-body {
+  overflow: hidden;
+}
+
+.howTo_table-scroll {
+  border: 3px solid #f9cbb5;
+  border-radius: 10px;
+}

@@ -1,0 +1,185 @@
+.productDoc-container {
+  margin: 0 1% 0 1%;
+}
+
+.productDoc-add_button-container {
+  text-align: end;
+}
+
+.productDoc-modal-open-btn {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.productDoc-modal-open-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.productDoc_Table-body {
+  overflow: hidden;
+}
+
+.productDoc_table-scroll {
+  border: 3px solid #f9cbb5;
+  border-radius: 10px;
+}
+
+.productDoc-main-div {
+  display: flex;
+}
+
+.productDoc-submain-div {
+  width: 50%;
+  padding: 2% 0 0 1%;
+}
+
+.productDoc-Inputfields {
+  display: grid;
+  width: 85%;
+  padding: 10px 0 10px 15px;
+}
+
+.productDoc-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+
+.productDoc-textbox-input {
+  font-weight: 400;
+  height: 35px;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  width: 97%;
+}
+
+.productDoc-textbox-input:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+
+.productDoc-textbox-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.productDoc-checkBoxes {
+  padding: 5px 10px 0px 10px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  min-height: 35px;
+}
+.productDocCheckBox_label_container {
+  padding: 5px 0px 0px 10px;
+  min-height: 35px;
+  text-align: left;
+}
+
+.productDocstatus-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.productDoc-modalCheckbox {
+  margin: 0 25px 0 15px;
+}
+
+.productDocCheckBox_label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.productDocDropdown-input {
+  width: 85%;
+  height: 35px;
+}
+
+.add-update-productDoc-select {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.productDoc-Image-fields {
+  display: grid;
+  width: 50%;
+  padding: 10px;
+}
+
+.productDoc-imageUploaderDiv {
+  text-align: center;
+}
+
+.productDoc-image-uploader {
+  border: 2px dashed #ccc;
+  text-align: center;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.productDoc-uploadImageHeading {
+  margin: 2% 0;
+  color: #546271;
+  font-weight: 600;
+}
+
+.productDoc-file-input-label {
+  height: 200px;
+}
+
+.productDoc-image-uploader-heading {
+  margin: 0%;
+  padding: 3%;
+  color: blue;
+}
+
+.productDoc-image-uploader {
+  border: 2px dashed #ccc;
+  text-align: center;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.productDoc-submitButtondiv {
+  margin: 1% 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.productDoc-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  margin: 0 10px;
+  border: none;
+}
+.productDoc-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.productDoc_checkboxes_container {
+  display: flex;
+  align-items: center;
+}

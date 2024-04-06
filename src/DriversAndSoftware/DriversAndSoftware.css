@@ -1,0 +1,125 @@
+.driversAndSoftware_searchbar1_select {
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.driversAndSoftware_searchbar1_input {
+  width: 30%;
+  height: 35px;
+  border-radius: 5px;
+  margin: 0 0 0 1.5%;
+}
+
+.driversAndSoftware_searchbar1 {
+  width: 98.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.driver-noData {
+  margin: 10px;
+}
+
+.DriverAndSoftwareElements {
+  padding: 2% 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.DriverAndSoftware_element {
+  margin: 6%;
+  height: 23vh;
+  overflow: hidden;
+  width: 87%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: baseline;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+.DriverAndSoftware_elementHeading {
+  font-weight: 600;
+  margin: 7% 0 5% 0;
+  width: 95%;
+}
+
+.DriverAndSoftware_element:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.29);
+  cursor: pointer;
+}
+
+.DriverAndSoftware_element_img {
+  height: 45px;
+  margin: 7% 0 0 0;
+}
+
+.DriverAndSoftware_element_p {
+  width: 95%;
+  margin: 2% 0;
+  font-size: 16px;
+}
+
+.additional {
+  margin: 2% 2% 4% 2%;
+}
+
+.additional_button {
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.DriverAndSoftwareImageHedding {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.DriverAndSoftwareImageHeddingIcon {
+  height: 25px;
+  margin: 0 1% 0 0;
+}
+
+.DriversAndSoftwareTop_p {
+  margin-left: 2%;
+}
+
+.DriverAndSoftware_icons {
+  height: 30px;
+  margin: 7% 0 0 0;
+  font-size: xx-large;
+}
+.DriverAndSoftware_icon {
+  height: 30px;
+  font-size: 1.5em;
+  margin: 2px 2% 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .DriverAndSoftware_element {
+    margin: 2%;
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 218, 218);
+    min-width: 150px;
+    font-size: 12px;
+  }
+
+  .DriverAndSoftwareElements {
+    padding: 2% 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .DriverAndSoftware_element_p {
+    font-size: small;
+  }
+}

@@ -1,0 +1,29 @@
+.RepairStatus_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.RepairStatus_div1 {
+  margin: 2% 0 0 0;
+}
+.RepairStatus_div2_input {
+  height: 35px;
+  width: 30%;
+  margin: 2% 0 0 0;
+}
+
+.RepairStatusImageHedding {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.RepairStatusImageHedding_img {
+  height: 25px;
+  margin: 0 1% 0 0;
+}
+
+.RepairStatus_icon {
+  height: 30px;
+  font-size: 1.5em;
+  margin: 1% 5px 0 0;
+}

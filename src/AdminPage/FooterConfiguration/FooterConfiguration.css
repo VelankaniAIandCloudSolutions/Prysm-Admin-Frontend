@@ -1,0 +1,144 @@
+.Footer-Configuration-div {
+  display: grid;
+  grid-row-gap: 10px;
+  border: 2px solid #eeeeee;
+  margin: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  border: 1px solid #d9dff2;
+}
+.OnArrAdd {
+  text-align: end;
+}
+.Footer-card-Add {
+  font-size: 16px;
+  background: #ad2128;
+  height: 30px;
+  min-width: 50px;
+  color: white;
+  border-radius: 4px;
+  margin: 5px;
+  border: none;
+}
+.Footer-card-Add:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.footer-card-Close {
+  background: #ad2128;
+  border: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+}
+.footer-card-Close:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.footer-card-close-div {
+  text-align: end;
+  margin: 5px;
+}
+.Footer-Configuration-Add-div {
+  grid-row-gap: 10px;
+  border: 2px solid #eeeeee;
+  margin: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  border: 1px solid #d9dff2;
+  width: 300px;
+  height: fit-content;
+}
+.footer-configuration-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.addButtonContainerFooter {
+  text-align: end;
+}
+.modalOpenBtnFooter {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+.headerModalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  color: black;
+  background-color: #f9cbb5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.headerTitleFooter {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+}
+.divDisplayFooter {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+}
+.labelClassFooter {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+.textboxInputFooter_1 {
+  width: 95%;
+  font-weight: 400;
+  height: 35px;
+}
+.textInputFooter {
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+.textInputFooter:focus {
+  outline: 1px solid rgb(201, 200, 200);
+}
+
+.textInputFooter:hover {
+  box-shadow: 0 0 3px grey;
+}
+.modalOpenBtnFooterSubmit {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  align-items: center;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.modalOpenBtnFooterSubmit:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.pccContainerFooter {
+  margin: 0 1% 0 1%;
+}
+.ConfigSubmitButton {
+  text-align: end;
+  width: 95%;
+}

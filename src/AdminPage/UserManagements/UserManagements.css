@@ -1,0 +1,229 @@
+.user-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  width: 30% !important;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  z-index: 999;
+}
+.user-close-btn {
+  float: right;
+  margin: 10px;
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+.user-prev-btn {
+  margin: 10px 25% 0 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #bbbbbb;
+}
+.user-next-btn {
+  float: right;
+  margin: 10px 10px 10px 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #bbbbbb;
+}
+.user-add-update-div {
+  color: white;
+  display: flex;
+  justify-content: right;
+}
+.user-Modal-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  margin: 0 7px 0 0;
+  border: none;
+}
+.user-Modal-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.css-13cymwt-control {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: default;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  min-height: 38px;
+  outline: 0 !important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.UserMangement_checkboxDiv {
+  display: flex;
+  margin: 15px 10px;
+}
+
+.checkboxDivContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.userMangementCheckbox {
+  margin: 0 15px;
+}
+.Tab-UserMangement {
+  border: 0 solid #eee;
+  height: 40px;
+  display: flex;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: context-menu;
+  background: #eef1ff;
+}
+.Tab-UserMangement li {
+  display: block;
+  padding: 10px 23px;
+  cursor: pointer;
+}
+
+.Tab-UserMangement li.active {
+  border-bottom: 1px solid #1c12db;
+}
+.user-modal-title {
+  text-align: center;
+  color: #546271;
+}
+.contactInputFields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.user-add-button-container {
+  text-align: end;
+  margin: 0 1% 0 1%;
+}
+.user-modal-open-btn {
+  font-size: large;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+.user-modal-open-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.user-inputfields {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+}
+.user-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+.user-textbox-input {
+  width: 95%;
+  font-weight: 400;
+  height: 35px;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.user-textbox-input:focus {
+  outline: 1px solid rgb(201, 200, 200);
+}
+
+.user-textbox-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.user-status-checkBoxes {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+}
+.user-checkbox {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  min-height: 35px;
+}
+.user-modalCheckbox {
+  margin: 0 25px 0 15px;
+}
+.user-checkBox-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.user-add-btn-div {
+  text-align: end;
+  margin: 0 10px 0 0;
+}
+
+.select-dropdown {
+  width: 96.5%;
+}
+
+.user-container {
+  margin: 0 1% 0 1%;
+}
+.user-pwd-Inputsfields {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+  position: relative;
+}
+.user-pwd-container {
+  cursor: pointer;
+  position: absolute;
+  right: 28px;
+  height: 15px;
+  top: 47px;
+}

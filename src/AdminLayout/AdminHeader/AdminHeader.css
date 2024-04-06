@@ -1,0 +1,74 @@
+
+.NavbarContainer-admin {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 8px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+  .listitem-admin {
+    margin-left: 10px;
+  }
+  
+  .company_logo-admin {
+    height: 40px;
+    width: 169px;
+    margin: 0 0 0 2%;
+    margin-top: 3px;
+    margin-bottom: 0;
+  }
+  
+  .Navbar_anchor-admin {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+  
+  .Navbar_anchor-admin:hover {
+    color: #636ff8;
+  }
+  
+  .Navbar_ul-admin {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .NavbarRightdiv_select-admin {
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 3%;
+  }
+  
+  .NavbarRightdiv-admin {
+    display: flex;
+  }
+  
+  .MyAccount-admin {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    margin-bottom: 150px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .Navbar_anchor-admin {
+      font-size: 11px;
+    }
+  }
+  .logout-btn{
+    font-size: 16px;
+    background: #ad2128;
+    height: 25px;
+    width: 30px;
+    border: 1px solid #ad2128;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 0.2;
+    letter-spacing: 0.25px;
+  }

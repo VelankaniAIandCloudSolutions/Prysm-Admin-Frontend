@@ -1,0 +1,40 @@
+.WarrantyAndServices_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.WarrantyAndServices_button {
+  margin: 5px;
+}
+
+.WarrantyAndServices_button:hover {
+  background-color: #0056b3;
+}
+
+.warrentyAndStatus_div1 {
+  margin: 2% 0 0 0;
+}
+
+.warrentyAndStatus_input {
+  height: 35px;
+  border-radius: 5px;
+  width: 30%;
+  margin: 2% 0 0 0;
+}
+
+.WarrantyAndServicesImageHedding {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.WarrantyAndServicesImageHedding_ {
+  height: 25px;
+  margin: 0 3px 0 0;
+}
+
+.WarrentyAndServices_icon {
+  height: 30px;
+  font-size: 1.5em;
+  margin: 1% 5px 0 0;
+}

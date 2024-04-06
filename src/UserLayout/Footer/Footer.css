@@ -1,0 +1,41 @@
+.footerLinks {
+  margin-bottom: 15px;
+  font-size: larger;
+}
+.social_link {
+  font-size: x-large;
+  color: blue;
+}
+
+.listsOfLinks {
+  font-size: 14px;
+}
+
+.gridForLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0% 10% 0% 10%;
+}
+
+.gridForLinks_anchor {
+  text-decoration: none;
+  color: blue;
+  font-size: 13px;
+}
+
+.grid_element {
+  margin: 5px 0 0 0;
+}
+
+.innergrid {
+  display: grid;
+  text-align: left;
+}
+
+.LinkTitle {
+  margin: 8% 0 1.5% 0;
+}
+
+.powered_by {
+  font-size: small;
+}

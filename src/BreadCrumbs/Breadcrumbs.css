@@ -1,0 +1,63 @@
+.breadcrumb-holder {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.breadcrumb-holder div {
+  display: flex;
+}
+
+.breadcrumb-holder div:last-of-type a {
+  cursor: pointer;
+}
+
+.breadcrumb-holder div a,
+.breadcrumb-holder div a:link,
+.breadcrumb-holder div a:visited {
+  text-decoration: none;
+  display: block;
+}
+
+.angled-breadcrumbs div a,
+.angled-breadcrumbs div a:link,
+.angled-breadcrumbs div a:visited {
+  padding: 5px 5px 5px 20px;
+  color: white;
+  font-size: 12px;
+  background: #ad2128;
+  position: relative;
+}
+
+.angled-breadcrumbs div:first-of-type a {
+  padding: 5px 5px 5px 10px;
+}
+
+.angled-breadcrumbs div a:before,
+.angled-breadcrumbs div a:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: -12px;
+  border: 16px solid transparent;
+  border-right: none;
+  border-left: 13px solid #ad2128;
+}
+
+.angled-breadcrumbs div a:before {
+  right: -13px;
+  border-left: 13px solid white;
+}
+
+.angled-breadcrumbs div a:hover,
+.angled-breadcrumbs div:last-of-type a {
+  background: #e4742e;
+}
+
+.angled-breadcrumbs div a:hover:after,
+.angled-breadcrumbs div:last-of-type a:after {
+  border-left: 13px solid #e4742e;
+}

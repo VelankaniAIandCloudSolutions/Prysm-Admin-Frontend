@@ -1,0 +1,98 @@
+.parts_component_container {
+  padding: 0 3% 3% 0;
+}
+
+.Parts_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1% 2% 0 2%;
+}
+.Parts_top_input {
+  height: 35px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.Parts_navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2% 0 2%;
+  border-bottom: 1px solid;
+}
+.Parts_navbar_a {
+  margin: 0 3% 0 0;
+  color: blue;
+  padding-bottom: 1%;
+}
+
+.PartsNLeft {
+  display: flex;
+  width: 100%;
+}
+.PartsNRight {
+  width: 50%;
+  text-align: right;
+}
+
+.PartsDdown {
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin: 0 2% 2% 2%;
+  padding: 2% 0 0 0;
+}
+
+.PartsDdown_select {
+  border: none;
+  color: blue;
+  border-radius: 4px;
+  background-color: rgb(243, 243, 243);
+  margin: 0 0 0 2%;
+}
+
+.parts_item {
+  display: flex;
+  align-items: center;
+  background-color: rgb(228, 230, 230);
+  margin: 2%;
+}
+
+.parts_item_div {
+  width: 95%;
+}
+
+.parts_item:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.29);
+}
+
+.product_innerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.parts_item_img {
+  height: 160px;
+  width: 200px;
+  margin: 2%;
+}
+
+.PartsImageHedding {
+  display: flex;
+  align-items: center;
+  vertical-align: baseline;
+  width: 50%;
+}
+
+.PartsImageHedding_img {
+  height: 25px;
+  margin: 0 1% 0 0;
+}
+
+.Parts_Icon {
+  height: 30px;
+  font-size: 1.5em;
+  margin: 1% 5px 0 0;
+}

@@ -1,0 +1,135 @@
+.userName {
+  color: #48336e;
+  margin: auto 20px;
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 100%;
+}
+
+.icon-background {
+  background: #48336e;
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.item-menu {
+  margin-left: 10%;
+  display: flex;
+  position: relative;
+  bottom: 74%;
+}
+
+.Admin {
+  content: url(../../assets/Icons/admin.png);
+}
+
+.logoutBtn {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-left: 1px;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 15%;
+  background: #ad2128;
+}
+.sidebar1 {
+  height: 100vh;
+  width: 3%;
+  background: #ad2128;
+}
+.toggle-menu {
+  margin: 10px;
+}
+.toggle-menu-icon {
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  font-size: 25px;
+  margin: 0 0 0 1px;
+}
+.sidebar-ul {
+  list-style: none;
+  padding: unset;
+}
+.sidebar-li {
+  margin: 10px;
+  text-align: start;
+  height: 25px;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.sidebar-h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0 0 10px;
+  color: #fff;
+}
+.menu-tooltip {
+  position: relative;
+}
+.menu-tooltip .menu-tooltip-span {
+  visibility: hidden;
+  width: fit-content;
+  background-color: #eee;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 50px;
+  white-space: nowrap;
+  font-size: 10px;
+  color: #000;
+}
+.menu-tooltip:hover .menu-tooltip-span {
+  visibility: visible;
+}
+
+.menu-tooltip .menu-tooltip-span-opensidebar {
+  visibility: hidden;
+  width: fit-content;
+  background-color: #eee;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 190px;
+  white-space: nowrap;
+  font-size: 10px;
+  color: #000;
+}
+.menu-tooltip:hover .menu-tooltip-span-opensidebar {
+  visibility: visible;
+}
+.sidebar-breadcrumb {
+  margin: 3px 0 0 18px;
+}
+@media only screen and (min-width: 820px) {
+  .sidebar-breadcrumb {
+    margin: 5px 0 0 35px;
+  }
+}
+.idebar-ul > a.active {
+  background: #ae73a9;
+  padding: 5px;
+  border-radius: 10px;
+}
+.nav-text-color {
+  color: transparent;
+}
+a {
+  text-decoration: none;
+}

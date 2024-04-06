@@ -1,0 +1,198 @@
+.pcc_container {
+  margin: 0 1% 0 1%;
+}
+
+.CustomizationOptions {
+  width: 94%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 2%;
+}
+.submitButtonDiv {
+  text-align: right;
+  margin: 0 0 1% 0;
+}
+.cardAddButton {
+  width: 15%;
+  text-align: right;
+}
+.titleoption {
+  width: 85%;
+}
+.cardCloseButtonDiv {
+  display: flex;
+}
+.cardsHeading {
+  margin-left: 17%;
+  margin-right: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+.cardCloseButton {
+  border: none;
+  background: none;
+  color: red;
+  position: relative;
+  bottom: 45%;
+  left: 3%;
+}
+.customizationCategoryContainer {
+  display: flex;
+}
+.customizationCategoryInputs {
+  width: 25%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 1%;
+}
+.optionsInputs {
+  width: 75%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .customizationCategoryInputs,
+  .optionsInputs {
+    width: 90%;
+    margin: 2% auto;
+  }
+}
+
+.formheadertitle {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.Custoptioncards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: scroll;
+  height: 61vh;
+  margin: 1%;
+}
+
+.buttonplaceholder {
+  color: white;
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: right;
+}
+
+.headercategogrytitle {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3%;
+}
+.ProductCat-container {
+  margin: 0 1% 0 1%;
+}
+.ProductCat-add-button-container {
+  text-align: end;
+}
+.ProductCat-modal-open-btn {
+  font-size: 14px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  font-weight: 800;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.ProductCat-modal-open-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.ProductCat-Modal-btn {
+  font-size: 16px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  font-weight: 400;
+  margin: 10px 20px;
+  border: none;
+}
+.ProductCat-Modal-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.ProductCat-Modal-btn:disabled {
+  background-color: #82b1cd;
+  color: white;
+  box-shadow: none;
+  opacity: 0.1;
+}
+.ProductCat-Inputfields {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+}
+.ProductCat-label-class {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+.ProductCat-textbox-input {
+  width: 95%;
+  font-weight: 400;
+  height: 35px;
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+.ProductCat-textbox-input:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+.ProductCat-textbox-input:hover {
+  box-shadow: 0 0 3px grey;
+}
+.ProductCat-checkBoxes {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+}
+.ProductCat-modalCheckbox {
+  margin: 0 25px 0 15px;
+}
+.ProductCat-checkbox {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  min-height: 35px;
+}
+.div-ProductCat-checkbox {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  min-height: 35px;
+}
+.ProductCat-dropdown-input {
+  width: 98%;
+  height: 35px;
+}
+.customization-Table-body {
+  overflow: hidden;
+}
+.customization-table-scroll {
+  border: 3px solid #f9cbb5;
+  border-radius: 10px;
+}

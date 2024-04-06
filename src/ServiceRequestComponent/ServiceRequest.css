@@ -1,0 +1,533 @@
+.ServiceRequest {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.ServiceRequest_inner_block {
+  margin: 0 10% 0 7%;
+  text-align: left;
+  padding: 2% 0 0 0;
+}
+
+.Submit_eTicket {
+  margin: 0 0 0 2%;
+}
+
+.Submit_eTicket_heading {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.Submit_eTicket_p {
+  font-size: small;
+}
+
+.Tracker_line_div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.Tracker_line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Number_in_circle {
+  text-align: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.Number_in_circle_p {
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-size: x-small;
+  font-weight: 900;
+}
+
+.TrackerLine {
+  padding: 3% 0 3% 0;
+}
+
+.between_dev {
+  background-color: rgb(230, 226, 226);
+  width: 100%;
+  height: 3px;
+}
+
+.Tracker_Names {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+}
+
+.Tracker_Name_1 {
+  padding: 0 0 0 7%;
+  font-size: medium;
+  font-weight: lighter;
+  margin: 2px 0 0 0;
+}
+
+.Tracker_Name_2 {
+  padding: 0 0 0 6%;
+  font-size: medium;
+  font-weight: lighter;
+  margin: 2px 0 0 0;
+}
+
+.Tracker_Name_3 {
+  padding: 0 0 0 4%;
+  font-size: medium;
+  font-weight: lighter;
+  margin: 2px 0 0 0;
+}
+
+.Tracker_Name_4 {
+  padding: 0 0 0 3%;
+  font-size: medium;
+  font-weight: lighter;
+  margin: 2px 0 0 0;
+}
+
+.Tracker_Name_5 {
+  font-size: medium;
+  font-weight: lighter;
+  margin: 2px 0 0 0;
+}
+
+.Discovery_Details {
+  width: 50%;
+  padding: 2% 0 2% 0;
+}
+
+.Discovery_Details_select1 {
+  padding: 0 0 1% 0;
+}
+
+.Discovery_Details_select2 {
+  padding: 1% 0 1% 0;
+}
+
+.Discovery_Details_input {
+  width: 98%;
+  border-radius: 3px;
+  height: 32px;
+  border: 1px solid rgb(204, 203, 203);
+  padding: 2px 0 2px 1.5%;
+}
+
+.Discovery_right {
+  margin: 10% 0 0 0;
+}
+
+.ServiceRequest_bottom_Button {
+  margin: 3% 0 5% 2%;
+}
+
+.ServiceRequest_bottom_Label_Button_div {
+  display: flex;
+}
+
+.ServiceRequest_label {
+  margin-left: 2%;
+  font-style: italic;
+}
+
+.AdditionalInfo {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+}
+
+.AdditionalInfo_input {
+  width: 80%;
+  height: 35px;
+  margin: 0 0 1% 0;
+}
+
+.required_input_field_textarea {
+  height: 130px;
+  margin: 0%;
+  width: 79.2%;
+  padding: 1%;
+  outline: none;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.AdditionalInfo_right {
+  margin-top: 2%;
+}
+.AdditionalInfo_left {
+  margin-top: 2%;
+}
+
+.AdditionalInfo_right_button {
+  height: 35px;
+  width: 154px;
+  margin: 4% 0 1% 0;
+}
+
+.ContactDetails_input {
+  height: 35px;
+  width: 90%;
+  margin: 0 0 1% 0;
+}
+
+.ContactDetails_div1 {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.ContactDetails_div1_input {
+  width: 90%;
+  margin: 0 0 1% 0;
+  height: 35px;
+}
+
+.ContactDetails_div1_InnerDiv {
+  width: 100%;
+}
+
+.ReviewSubmission {
+  background-color: #fff;
+}
+
+.ReviewSubmission_left_container_div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+}
+
+.ReviewSubmission_left_container {
+  width: 49%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 1% 0 0;
+  height: 38vh;
+}
+
+.ReviewSubmission_left_container_inner_div1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_container_inner_div_paragraph {
+  margin: 1% 0;
+}
+
+.ContactInfoRs {
+  margin: 1% 0;
+}
+
+.RsAdressMachine {
+  margin: 1% 0;
+}
+
+.ReviewSubmission_right_container {
+  width: 100%;
+}
+
+.ReviewSubmission_right_container_div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ReviewSubmission_right_container_inner_div1 {
+  display: flex;
+  width: 96%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ef8d53;
+  border-radius: 10px 10px 0 0;
+  padding: 0 2%;
+}
+
+.right_container_paragraph {
+  margin: 0;
+}
+
+.container7_div1 {
+  display: grid;
+  grid-template-columns: 5fr 1fr 6fr;
+  padding: 0 0 0 1%;
+  align-items: center;
+  height: 35px;
+  font-size: 14px;
+}
+
+.container7_address_div1 {
+  display: grid;
+  grid-template-columns: 5fr 1fr 6fr;
+  padding: 0 0 0 1%;
+  align-items: center;
+  font-size: 14px;
+}
+
+.edit_button {
+  border: none;
+  background: none;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+  width: 50px;
+  color: rgb(0, 0, 0);
+  height: 30px;
+}
+
+.edit_button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.SubmissionRecorded {
+  text-align: center;
+}
+
+.input_lables_name {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 0 1% 0;
+}
+
+.contactDetails_lables_name {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 3% 0 1% 0;
+}
+
+.review_submission_label {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .Discovery_Details {
+    width: 70%;
+  }
+
+  .AdditionalInfo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .AdditionalInfo_left,
+  .AdditionalInfo_right {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ContactDetails_div1 {
+    width: 90%;
+  }
+
+  .ContactDetails_input {
+    height: 35px;
+    width: 90%;
+    margin: 2% auto;
+  }
+
+  .ServiceRequest_label {
+    font-size: 12px;
+  }
+
+  .ReviewSubmission_right_container,
+  .ReviewSubmission_left_container {
+    width: 95%;
+  }
+
+  .ReviewSubmission {
+    flex-wrap: wrap;
+  }
+}
+
+.serviceImageUploaderDiv {
+  width: 100%;
+}
+
+.submittedIcon {
+  font-size: xx-large;
+  text-align: center;
+  margin: 3% 0 0 0;
+  color: rgb(54, 241, 54);
+}
+
+.bottomBackButton {
+  background-color: white;
+  border: 2px solid #ac1f26;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: border-color 0.2s;
+  padding: 10px;
+  margin: 0 1% 0 0;
+}
+
+.bottomBackButton:hover {
+  border-color: #ac1f26;
+  cursor: pointer;
+}
+
+.stepperFlexDiv {
+  display: grid;
+  grid-template-columns: 6fr 1fr 6fr;
+  align-items: center;
+  width: 100%;
+}
+
+.contactDetailsflexDiv {
+  display: flex;
+}
+
+.contactDetailsfirstDiv {
+  width: 70%;
+  padding: 0 0 1% 3%;
+  border: 1px solid #ccc;
+  margin: 1% 1% 0 0;
+  border-radius: 4px;
+}
+
+.contactDetailssecondDiv {
+  width: 50%;
+  padding: 0 0 1% 3%;
+  border: 1px solid #ccc;
+  margin: 1% 0 0 0;
+  border-radius: 4px;
+}
+
+.textbox-input3 {
+  height: 35px;
+  margin: 0 0 1% 0;
+}
+
+.reviewSubmissionlabelDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.ReviewSubmission_right_container_div2 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 1% 1% 0 0;
+  width: 49%;
+  height: 41vh;
+}
+
+.ReviewSubmission_right_container_d2 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 1% 1% 0 0;
+  width: 49%;
+  min-height: 33vh;
+  padding: 0 0 1% 0;
+}
+
+.right_container_div1 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 1%;
+  width: 49%;
+  height: 38vh;
+}
+
+.right_containerDiv1 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 1%;
+  width: 49%;
+  min-height: 33vh;
+  padding: 0 0 1% 0;
+}
+
+.HeadingFlexDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  background: #ef8d53;
+  border-radius: 10px 10px 0 0;
+  padding: 0 2%;
+  align-items: center;
+}
+
+.ReviewSubmission,
+.ContactDetails,
+.Discovery,
+.AdditionalInfo {
+  margin: 0 0 0 2%;
+}
+
+.ReviewSubmissionFlexDiv1 {
+  display: flex;
+  align-items: start;
+}
+
+.ReviewSubmissionFlexDiv2 {
+  display: flex;
+  align-items: baseline;
+}
+
+.ReviewSubmission_p {
+  font-weight: 600;
+}
+
+.Address_Paragraph {
+  margin: 5% 0 1.5% 0;
+}
+
+.MachineLocationContaier {
+  padding: 0 2%;
+}
+
+.contactnformation_RS {
+  padding: 0 2%;
+}
+
+.ReviewSubmission_Checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.serviceRequestHeaderForPages {
+  background-image: url("../assets/images/stars.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 2%;
+  color: white;
+}
+
+.fileNames_serveceRequest {
+  font-size: small;
+}
+
+.filesFlexDiv_serveceRequest {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.file_serveceRequest {
+  border: 1px solid rgb(201 200 200);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0.25em;
+}
+
+.image-uploader_serviceRequest {
+  border: 2px dashed #ccc;
+  text-align: center;
+  width: 95%;
+  height: fit-content;
+  min-height: 220px;
+  border-radius: 5px;
+}

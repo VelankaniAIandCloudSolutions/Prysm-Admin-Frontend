@@ -1,0 +1,117 @@
+.DiscountPageContainer {
+  display: flex;
+  width: 97%;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 5px;
+}
+
+.DiscountLeftInputField {
+  width: 50%;
+  margin-left: 125px;
+}
+.DiscountRightInputField {
+  width: 50%;
+}
+
+.Discount-dropdown-input {
+  margin-left: -9px;
+  margin-right: -72px;
+}
+.pccContainerDiscountPage {
+  margin: 0 1% 0 1%;
+}
+.addButtonContainerDiscountPage {
+  text-align: end;
+}
+.modalOpenBtnDiscountPage {
+  font-size: 14px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.modalOpenBtnDiscountPage:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.tableBodyDiscountPage {
+  padding: 0.3rem;
+  overflow: hidden;
+}
+.tableScrollDiscountPage {
+  border: 3px solid #f9cbb5;
+  border-radius: 10px;
+}
+.divDisplayDiscountPage {
+  display: grid;
+  width: 93%;
+  padding: 10px;
+}
+.labelClassDiscountPage {
+  color: #546271;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+.textInputDiscountPage {
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+}
+
+.textInputDiscountPage:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.textInputDiscountPage:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+
+.statusStockCheckBoxesDiscountPage {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+}
+.divDisplayCheckboxDiscountPage {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  min-height: 35px;
+}
+.modalCheckboxDiscountPage {
+  margin: 0 25px 0 15px;
+}
+.HowtoBtnDiscountPage {
+  font-size: 12px;
+  background: #ad2128;
+  border: 2px solid #ad2128;
+  height: 35px;
+  min-width: 80px;
+  color: white;
+  border-radius: 4px;
+  font-weight: 400;
+  margin: 0 2%;
+  border: none;
+}
+.HowtoBtnDiscountPage:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+.textbox-input_3 {
+  height: 35px;
+}
+.submitButtondiv {
+  text-align: end;
+}

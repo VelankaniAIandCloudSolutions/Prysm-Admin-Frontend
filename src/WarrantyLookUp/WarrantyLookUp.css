@@ -1,0 +1,86 @@
+.Container-WarrantyLoohup {
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.selectoption {
+  display: flex;
+  width: 45%;
+  height: 34px;
+}
+
+.submit-button {
+  height: 39px;
+  background-color: #666d74;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.Article {
+  display: flex;
+  margin-top: 10px;
+  gap: 8%;
+}
+
+.Article > div {
+  margin-right: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0;
+}
+
+.box {
+  display: flex;
+  border: 2px solid #f1eaea;
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  border-radius: 8px;
+  width: 100%;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.box:hover {
+  border-color: #cfd5dc;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.box-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+.tile-item {
+  flex-grow: 1;
+}
+.box-title {
+  margin: 7px;
+}
+.box-Description {
+  margin: 7px;
+}
+
+.warrentyDropdown-input {
+  width: 98%;
+  height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: block;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,139 @@
+.add-update-driver-main-div1 {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  width: 40%;
+}
+
+.add-update-driver-main-div2 {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  width: 60%;
+}
+
+.add-update-driver-container {
+  display: flex;
+}
+.add-update-driver-sub-div {
+  margin-bottom: 10px;
+}
+.add-update-driver-select {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.add-update-driver-input {
+  width: 97%;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.add-update-driver-check-box-div {
+  display: flex;
+  align-items: center;
+  margin: 2% 0;
+}
+.add-update-driver-input-des {
+  width: 96.5%;
+  margin-left: 4px;
+  margin-top: 10px;
+}
+.add-update-driver-text-area {
+  width: 97%;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  height: 100px;
+}
+.add-update-driver-upload {
+  min-height: 150px;
+  border: 2px dotted rgb(201, 200, 200);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.addDriverButton {
+  margin: 1% 0.3rem 0.3rem 0.3rem;
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+}
+.addButtonContainer {
+  text-align: center;
+}
+
+.ModalOpenButtonContainer {
+  text-align: end;
+  margin: 2% 0;
+}
+
+.driverTextInput {
+  padding: 0 0 0 10px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  width: 95%;
+}
+
+.driverTextInput:focus {
+  outline: 2px solid rgb(230, 230, 230);
+}
+
+.driverTextInput:hover {
+  box-shadow: 0 0 3px grey;
+}
+
+.driverImageUploader {
+  text-align: center;
+}
+
+.driverImageUploaderInnerDiv {
+  width: 40%;
+  margin: 1%;
+}
+
+.driverModal-close-btn {
+  font-size: 16px;
+  height: 35px;
+  min-width: 100px;
+  border: 2px solid #ad2128;
+  color: black;
+  border-radius: 4px;
+  background: none;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.driverModal-close-btn:hover {
+  box-shadow: 0 3px 5px rgb(40 36 51 / 50%);
+  cursor: pointer;
+}
+
+.driverAdd_table-scroll {
+  border: 3px solid #f9cbb5;
+  border-radius: 10px;
+  height: 250px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.image-uploader-heading {
+  margin: 0%;
+  padding: 6% 3%;
+  color: blue;
+}
+.fileDropDiv-Driver {
+  height: 10vw;
+}

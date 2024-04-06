@@ -1,0 +1,303 @@
+.AdminContainer {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  min-height: 86.5vh;
+  margin-top: 15px;
+}
+
+.AdminContainer_Paragraph {
+  font-size: 36px;
+  margin: 2% 0 1% 0;
+  padding: 0;
+}
+
+.AdminContainer_span {
+  font-size: 15px;
+  margin: 0 0 5% 0;
+  padding: 0%;
+  font-weight: 500;
+}
+
+.Admin_Home {
+  display: grid;
+  align-items: center;
+  color: black;
+  height: fit-content;
+  width: 100%;
+}
+
+.HomeImage {
+  border-radius: 6px 6px 0 0;
+  width: 100%;
+  height: 180px;
+  opacity: 80%;
+}
+
+.adminElement {
+  background: none;
+  width: 85%;
+  height: 130px;
+  display: inline-block;
+  border-radius: 8px;
+  background: #c4cece82;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.adminElement:hover {
+  box-shadow: 0px 0px 4px 2px rgb(255, 255, 255, 50%);
+}
+
+.Admin_element_container {
+  min-height: 110px;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 95% 60%;
+  margin: 10% 3%;
+}
+
+.icon-dept-card {
+  z-index: 9;
+  position: relative;
+  bottom: 24.5px;
+  background: #edf2fa;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e2e7fb;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.admin-label-text {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #393e46;
+  cursor: pointer;
+  height: 20px;
+}
+
+.admin-h4 {
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.adminElementIcon {
+  height: 15px;
+  width: auto;
+  font-size: 30px;
+  padding: 20% 0 0 0;
+}
+
+.Admin_ribbon {
+  z-index: 40;
+  height: 188px;
+  position: absolute;
+  margin-bottom: 30px;
+  background: url(https://html5book.ru/wp-content/uploads/2015/10/snow-road.jpg);
+  background-size: cover;
+  text-transform: uppercase;
+  color: white;
+}
+
+.Admin_ribbon3 {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15.5px;
+  position: absolute;
+  left: -9px;
+  top: 20px;
+  background: red;
+}
+
+.Admin_ribbon3:before,
+.Admin_ribbon3:after {
+  content: "";
+  position: absolute;
+}
+
+.Admin_ribbon3:before {
+  height: 0;
+  width: 0;
+  top: -8.5px;
+  left: 0.1px;
+  border-bottom: 9px solid black;
+  border-left: 9px solid transparent;
+}
+
+.Admin_ribbon3:after {
+  height: 0;
+  width: 0;
+  right: -14.5px;
+  border-top: 15.5px solid transparent;
+  border-bottom: 15.5px solid transparent;
+  border-left: 15.5px solid red;
+}
+
+.colorDiv1 {
+  height: 40px;
+  margin: 25px 0 0 0;
+  text-align: center;
+  color: white;
+  border-radius: 0 0 12px 12px;
+  background: #7e105a;
+  line-height: 2;
+  cursor: pointer;
+
+}
+
+.colorDiv2 {
+  height: 40px;
+  margin: 25px 0 0 0;
+  text-align: center;
+  color: white;
+  border-radius: 0 0 12px 12px;
+  background: #669497;
+  line-height: 2;
+  cursor: pointer;
+
+}
+
+.colorDiv3 {
+  height: 40px;
+  margin: 25px 0 0 0;
+  text-align: center;
+  color: white;
+  border-radius: 0 0 12px 12px;
+  background: #ebb541;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.colorDiv4 {
+  height: 40px;
+  margin: 25px 0 0 0;
+  text-align: center;
+  color: white;
+  border-radius: 0 0 12px 12px;
+  background: #4b6f6f;
+  line-height: 2;
+}
+
+.card-background-color-1 {
+  background: rgb(231, 149, 57);
+}
+
+.card-background-color-2 {
+  background: rgb(125, 34, 51);
+}
+
+.card-background-color-3 {
+  background: rgb(120, 29, 85);
+}
+
+.card-background-color-4 {
+  background: rgb(194, 94, 51);
+}
+
+.card-background-color-5 {
+  background: rgb(205, 153, 55);
+}
+
+.card-background-color-6 {
+  background: rgb(25, 44, 38);
+}
+
+.card-background-color-7 {
+  background: rgb(136, 71, 91);
+}
+
+.card-background-color-8 {
+  background: rgb(161, 52, 62);
+}
+
+.card-background-color-9 {
+  background: rgb(51, 21, 64);
+}
+
+.card-background-color-10 {
+  background: rgb(218, 111, 88);
+}
+
+.card-icon-color-1 {
+  color: rgb(231, 149, 57);
+}
+
+.card-icon-color-2 {
+  color: rgb(125, 34, 51);
+}
+
+.card-icon-color-3 {
+  color: rgb(120, 29, 85);
+}
+
+.card-icon-color-4 {
+  color: rgb(194, 94, 51);
+}
+
+.card-icon-color-5 {
+  color: rgb(205, 153, 55);
+}
+
+.card-icon-color-6 {
+  color: rgb(25, 44, 38);
+}
+
+.card-icon-color-7 {
+  color: rgb(136, 71, 91);
+}
+
+.card-icon-color-8 {
+  color: rgb(161, 52, 62);
+}
+
+.card-icon-color-9 {
+  color: rgb(51, 21, 64);
+}
+
+.card-icon-color-10 {
+  color: rgb(218, 111, 88);
+}
+
+.Admin_collapsible_container_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 25px;
+  margin-bottom: 15px;
+}
+
+.Admin_collapsible_container {
+  margin-top: 35px;
+}
+
+.Admin_collapsible_div {
+  border: 2px solid;
+  margin: 0px 15px 15px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(201, 200, 200);
+  color: white;
+}
+
+.Collapsible__trigger {
+  text-align: left;
+  padding: 15px;
+  color: black;
+  border-radius: 5px;
+  background: #b328261a;
+}
+
+.Collapsible__trigger svg {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .Admin_collapsible_container_div {
+    display: block;
+  }
+}

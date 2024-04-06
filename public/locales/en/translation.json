@@ -1,0 +1,366 @@
+{
+  "productFamily": [
+    {
+      "productFamilyId": 1,
+      "productFamilyTitle": "PC",
+      "productDescription": "Laptops, tablets, desktops, workstations",
+      "isActive": 2,
+      "imageURL": "https://img.freepik.com/free-psd/realistic-computer-design_1310-689.jpg?w=1060&t=st=1697217763~exp=1697218363~hmac=7dd30845bec3c25972446eb170b5cec569f40347eff29e4912e201605021acd8"
+    },
+    {
+      "productFamilyId": 2,
+      "productFamilyTitle": "Datacenter",
+      "productDescription": "Servers,Storage,&Networking",
+      "isActive": 1,
+      "imageURL":"https://img.freepik.com/free-vector/network-servers-set_1284-12642.jpg?w=740&t=st=1697217919~exp=1697218519~hmac=f888ab5ab824b716a9313d2f242dff3a875125de6a9d74ffb8de67eacdbcd527",
+      "support": {
+        "title": "Data Center Support",
+        "subHeading": "What can we help you search?",
+        "searchHint": "Search Data Center Support",
+        "searchHelp": "Help me find my product/serial number"
+      }   
+    },
+    {
+      "productFamilyId": 3,
+      "productFamilyTitle": "Mobile",
+      "productDescription": "VelankaniDevices",
+      "isActive": 2,
+      "imageURL":"https://img.freepik.com/free-vector/realistic-smartphone-official-colors_23-2148778793.jpg?w=1060&t=st=1697217950~exp=1697218550~hmac=4d2b7c3ace0ed76ed67a04f208b8abc408975c081e1f182bd6a522b6132a3a88"
+    },
+    {
+      "productFamilyId": 4,
+      "productFamilyTitle": "Smart",
+      "productDescription": "AR/VR, Smart Home & Smart Office",
+      "isActive": 2,
+      "imageURL": "https://img.freepik.com/free-photo/devices-arrangement-desk_23-2148994217.jpg?w=1060&t=st=1697217981~exp=1697218581~hmac=4acf558df77b22e57253c8608ce7bbf38cb1972ecf75a6ffdbb31479e691ce3c"
+    }
+  ],
+  "browseProduct": {
+    "title": "Browse Product",
+    "products": [
+      {
+        "productId": 2,
+        "productFamilyId": 2,
+        "productTitle": "Servers",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/484/484117.png",
+        "isActive": 1
+      },
+      {
+        "productId": 3,
+        "productFamilyId": 2,
+        "productTitle": "Storage",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/658/658099.png",
+        "isActive": 2
+      },
+      {
+        "productId": 4,
+        "productFamilyId": 2,
+        "productTitle": "Networking",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/8657/8657437.png",
+        "isActive": 2
+      },
+      {
+        "productId": 5,
+        "productFamilyId": 2,
+        "productTitle": "Solutions And Software",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/7001/7001614.png",
+        "isActive": 2
+      },
+      {
+        "productId": 6,
+        "productFamilyId": 2,
+        "productTitle": "Infrastructure Options",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/6726/6726559.png",
+        "isActive": 2
+      }
+    ]
+  },
+  "homePage": {
+    "pageTitle": "Welcome to Velankani Technical Support",
+    "titleDescription": "Drivers,updates,guides,technicalsupportandmore",
+    "groupHeading": "Select a product group"
+  },
+  "footer": {
+    "social": [
+      {
+        "icon": "twitter.png",
+        "link": "abcd"
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
+    ],
+    "links": [
+      {
+        "groupName": "About Velankani",
+        "groupItems": [
+          {
+            "linkName": "Our Company",
+            "link": ""
+          },
+          {
+            "linkName": "News",
+            "link": ""
+          },
+          {
+            "linkName": "Investor Relations",
+            "link": ""
+          },
+          {
+            "linkName": "Sustainability",
+            "link": ""
+          },
+          {
+            "linkName": "Product Compliance",
+            "link": ""
+          },
+          {
+            "linkName": "Product Security",
+            "link": ""
+          },
+          {
+            "linkName": "Velankani OpenSource",
+            "link": ""
+          },
+          {
+            "linkName": "Legal Information",
+            "link": ""
+          },
+          {
+            "linkName": "Jobs at Velankani",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "groupName": "Shop",
+        "groupItems": [
+          {
+            "linkName": "Laptops & Ultrabooks",
+            "link": ""
+          },
+          {
+            "linkName": "Tablets",
+            "link": ""
+          },
+          {
+            "linkName": "Desktops & All-in-Ones",
+            "link": ""
+          },
+          {
+            "linkName": "Workstations",
+            "link": ""
+          },
+          {
+            "linkName": "Accessories & Software",
+            "link": ""
+          },
+          {
+            "linkName": "Servers",
+            "link": ""
+          },
+          {
+            "linkName": "Storage",
+            "link": ""
+          },
+          {
+            "linkName": "Networking",
+            "link": ""
+          },
+          {
+            "linkName": "Laptop Deals",
+            "link": ""
+          },
+          {
+            "linkName": "Outlet",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "groupName": "Support",
+        "groupItems": [
+          {
+            "linkName": "Drivers & Software",
+            "link": ""
+          },
+          {
+            "linkName": "How To",
+            "link": ""
+          },
+          {
+            "linkName": "Warranty Lookup",
+            "link": ""
+          },
+          {
+            "linkName": "Parts Lookup",
+            "link": ""
+          },
+          {
+            "linkName": "Contact Us",
+            "link": ""
+          },
+          {
+            "linkName": "Repair Status Check",
+            "link": ""
+          },
+          {
+            "linkName": "Imaging & Security Resources",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "groupName": "Resources",
+        "groupItems": [
+          {
+            "linkName": "Where to Buy",
+            "link": ""
+          },
+          {
+            "linkName": "Shopping Help",
+            "link": ""
+          },
+          {
+            "linkName": "Track Order Status",
+            "link": ""
+          },
+          {
+            "linkName": "Product Specifications (PSREF)",
+            "link": ""
+          },
+          {
+            "linkName": "Forums",
+            "link": ""
+          },
+          {
+            "linkName": "Registration",
+            "link": ""
+          },
+          {
+            "linkName": "Product Accessibility",
+            "link": ""
+          },
+          {
+            "linkName": "Environmental Information",
+            "link": ""
+          },
+          {
+            "linkName": "Gaming Community",
+            "link": ""
+          },
+          {
+            "linkName": "Velankani EDU Community",
+            "link": ""
+          },
+          {
+            "linkName": "Velankani PRO Community",
+            "link": ""
+          }
+        ]
+      }
+    ],
+    "bottomLinks": [
+      {
+        "title": "TermsOfUse",
+        "link": ""
+      },
+      {
+        "title": "PrivacyPolicy",
+        "link": ""
+      }
+    ]
+  },
+  "header": {
+    "home": "Home",
+    "support": "Support",
+    "admin": "Admin",
+    "myaccount": "MyAccount"
+  },
+  "popularResources": {
+    "title": "Popular Resources",
+    "resources": [
+      {
+        "title": "Warranty Lookup",
+        "description": "View entitlements for your product",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/563/563570.png",
+        "buttonTitle": "Go to Lookup",
+        "isActive":false,
+        "navigatePath":"/Home/WarrantyLookUp"
+      },
+      {
+        "title": "Data Center Forums",
+        "description": "Find and share solutions with other Lenovo users",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/6383/6383261.png",
+        "buttonTitle": "Visit the Forum",
+        "isActive":false,
+        "navigatePath":""
+      },
+      {
+        "title": "Firmware Updates",
+        "description": "Review Firmware resources for your product",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/6332/6332103.png",
+        "buttonTitle": "Get Resources",
+        "isActive":false,
+        "navigatePath":""
+
+      },
+      {
+        "title": "Drivers & Software",
+        "description": "Get drivers and software for your machine",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/6440/6440550.png",
+        "buttonTitle": "Get Downloads",
+        "isActive":false,
+        "navigatePath":""
+
+      },
+      {
+        "title": "Parts Lookup",
+        "description": "Find parts for your product",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/9207/9207678.png",
+        "buttonTitle": "Go to Lookup",
+        "isActive":false,
+        "navigatePath":"/Home/PartsLookUp"
+
+      }
+    ]
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "resources": [
+      {
+        "title": "Support Phone List",
+        "description": "Find the contact information for your region",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/6446/6446166.png",
+        "buttonTitle": "Contact Us",
+        "isActive":true,
+        "navigatePath":"/ContactUs"
+      },
+      {
+        "title": "Submit a Service Request",
+        "description": "Create a technical or warranty service request",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/5067/5067921.png",
+        "buttonTitle": "Submit Ticket",
+        "isActive":true,
+        "navigatePath":"/ContactUs"
+      },
+      {
+        "title": "Premier Support",
+        "description": "Access Premier Support Options",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/7655/7655567.png",
+        "buttonTitle": "Learn More",
+        "isActive":false,
+        "navigatePath":""
+      },
+      {
+        "title": "Find a Service Provider",
+        "description": "Find the nearest authorized service provider",
+        "imageURL": "https://cdn-icons-png.flaticon.com/128/1105/1105159.png",
+        "buttonTitle": "Locate Provider",
+        "isActive":false,
+        "navigatePath":""
+      }
+    ]
+  }
+}

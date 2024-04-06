@@ -1,0 +1,276 @@
+.Tickets-status-div {
+  text-align: center;
+}
+
+.Tickets-status-btn {
+  color: white;
+  height: 100px;
+  width: 120px;
+  margin: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+.Tickets-Assign-Btn {
+  color: white;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+.loc-table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  top: 50px;
+}
+
+.loc-table-header {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.loc-header-tr {
+  background-color: rgb(10, 25, 41);
+  color: #ffffff;
+  font-size: 15px;
+  height: 50px;
+}
+
+.loc-add-div {
+  float: right;
+  padding-top: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.loc-add-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 5px;
+  width: 100px;
+}
+
+.Tickets-modal {
+  z-index: 111 !important;
+  display: block !important;
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.Tickets-modal-content {
+  border-radius: 15px;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  width: 39% !important;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -60%);
+}
+
+.Tickets-header-modal {
+  color: #fff;
+  background: #007bff;
+  height: 50px;
+  border-radius: 5px 5px 0 0;
+}
+
+.Tickets-header {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.Tickets-close-btn {
+  float: right;
+  margin: 10px;
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+
+.Tickets-footer-modal {
+  color: white;
+  border-radius: 0 0 5px 5px;
+  background: #eeeeee;
+  height: 49px;
+  border-top: 1px solid #bbbbbb;
+}
+
+.loc-modal-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Tickets-input-div {
+  display: grid;
+  width: 100%;
+  padding: 10px;
+}
+
+.Tickets-label {
+  color: #546271;
+  margin: 0px;
+  padding: 5px;
+}
+
+.loc-textbox-input {
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  width: 85%;
+  padding: 10px;
+}
+
+.loc-textbox-input:focus {
+  border: 2px solid #eeeeee;
+}
+
+.Tickets-submit-btn {
+  margin: 10px 10px 0 0;
+  width: 100px;
+  position: relative;
+  left: 40%;
+  height: 30px;
+  background: #007bff;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+}
+
+.loc-submit-div {
+  position: relative;
+  left: 45%;
+  top: 10px;
+}
+
+.loc-icon-edit {
+  margin-top: 4px;
+  margin-left: 2px;
+}
+
+.loc-edit-btn {
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+  background: rgb(10, 25, 41);
+  color: #ffffff;
+  background: #4b4453;
+}
+
+.Tickets-select {
+  width: 270px;
+}
+
+.TicketAssign-form {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  display: grid;
+}
+
+.TicketAssign-h2 {
+  margin: 50px 0 50px 0;
+}
+
+.TicketAssign-input-div {
+  display: grid;
+  width: 100%;
+  padding: 10px;
+}
+
+.TicketAssign-label {
+  color: #546271;
+  margin: 0px;
+  padding: 5px;
+  text-align: left;
+}
+
+.TicketAssign-textbox-input {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  width: 85%;
+  padding: 10px;
+}
+
+.TicketAssign-textbox-input:focus {
+  border: 2px solid #eeeeee;
+}
+
+.TicketAssign-input-formDiv {
+  display: flex;
+}
+
+.TicketAssign-Textarea {
+  height: 200px;
+}
+
+.TicketAssign-submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 5px;
+  width: 100px;
+}
+
+.Assign-submit-btn {
+  font-size: 16px;
+  background: #ad2128;
+  height: 35px;
+  width: 100px;
+  border: 0px solid #ad2128;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+  line-height: 0.2;
+  letter-spacing: 0.25px;
+  margin: 0.3rem;
+}
+
+.Assign-submit-button-container {
+  text-align: end;
+}
+
+.Assign-Ticket-table {
+  margin: 30px 10px 10px 10px;
+  border: 3px solid #f9cbb5;
+  border-radius: 10px;
+}
+.assign-div {
+  display: flex;
+}
+.assignto-div {
+  width: 50%;
+  margin: 10px;
+}
