@@ -6,7 +6,8 @@ import HttpApi from "i18next-http-backend";
 // "Inline" English and Arabic translations.
 
 // We can localize to any language and any number of languages.
-const url = process.env.REACT_APP_VELANKANI_API_URL;
+// const url = process.env.REACT_APP_VELANKANI_API_URL;
+const url = "https://prysmsupportdev.xtractautomation.com/";
 
 i18next
 

@@ -33,7 +33,8 @@ export default function ProductCategory() {
   const [data, setData] = useState([]);
   const [fileUploaded, setFileUploaded] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+  // const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+  const BASE_URL = "https://prysmsupport.xtractautomation.com/";
 
   // Validation
   const [nameError, setNameError] = useState(false);
@@ -106,7 +107,7 @@ export default function ProductCategory() {
         ? { value: 3, label: "Disable" }
         : null
     );
-    
+
     if (
       selectedProduct.productCategoryImagePath !== "" &&
       selectedProduct.productCategoryImagePath !== undefined &&

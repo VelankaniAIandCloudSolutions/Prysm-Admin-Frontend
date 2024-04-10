@@ -8,10 +8,7 @@ import {
   postCrudApi,
   putCrudApi,
 } from "../../webServices/webServices";
-import {
-  selectOptionsMap,
-  getBase64FromFile,
-} from "../../Helpers/Helpers";
+import { selectOptionsMap, getBase64FromFile } from "../../Helpers/Helpers";
 
 import "react-toastify/dist/ReactToastify.css";
 import { toast } from "react-toastify";
@@ -51,7 +48,8 @@ export default function ProductDetails() {
   const [isLoading, setIsLoading] = useState(false);
   const location = useLocation();
 
-  const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+  // const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+  const BASE_URL = "https://prysmsupport.xtractautomation.com/";
   const navigate = useNavigate();
 
   const handleDrop = async (e) => {
@@ -215,9 +213,9 @@ export default function ProductDetails() {
     }
 
     validateFile(productImages);
-     if(!htmlInput || htmlInput.toString().trim() === ""){
-      isValid = false
-     }
+    if (!htmlInput || htmlInput.toString().trim() === "") {
+      isValid = false;
+    }
 
     return isValid;
   };
@@ -248,7 +246,7 @@ export default function ProductDetails() {
 
   useEffect(() => {
     setIsLoading(true);
-       populateData();
+    populateData();
     setIsLoading(false);
   }, [allData, updateUI]);
 

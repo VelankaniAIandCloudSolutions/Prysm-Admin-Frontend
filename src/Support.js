@@ -23,7 +23,8 @@ import { getCrudApi } from "./webServices/webServices";
 export default function Support() {
   const [ActiveComponent, setActiveComponent] = useState("ProductHome");
   const [productData, setProductData] = useState({});
-  const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+  // const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+  const BASE_URL = "https://prysmsupport.xtractautomation.com/";
   useEffect(() => {
     let productId = parseInt(sessionStorage.getItem("productId"));
     getProductById(productId);
@@ -128,7 +129,7 @@ export default function Support() {
             >
               <GiAutoRepair /> Repair Status
             </div>
-          </div>         
+          </div>
           <div className="LeftNavigationButton">
             <div className="LeftNavigationButtonBorderDiv">
               <div

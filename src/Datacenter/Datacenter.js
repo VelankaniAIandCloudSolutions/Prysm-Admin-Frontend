@@ -11,7 +11,8 @@ export default function Datacenter() {
   const [productData, setProductData] = useState([]);
   const navigate = useNavigate();
   const [productFamilyInfo, setProductFamilyInfo] = useState([]);
-  const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+  // const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+  const BASE_URL = "https://prysmsupport.xtractautomation.com/";
 
   const { t } = useTranslation();
 
@@ -191,9 +192,13 @@ export default function Datacenter() {
                               >
                                 <img
                                   src={
-                                    process.env.REACT_APP_AWS_S3_PUBLIC_URL +
+                                    "https://prysmsupport.xtractautomation.com/" +
                                     item.imageURL
                                   }
+                                  // src={
+                                  //   process.env.REACT_APP_AWS_S3_PUBLIC_URL +
+                                  //   item.imageURL
+                                  // }
                                   alt="pic"
                                   className="product_Image"
                                 />

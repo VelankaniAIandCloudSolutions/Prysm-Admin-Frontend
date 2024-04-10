@@ -14,7 +14,8 @@ import { getBase64FromFile } from "../../Helpers/Helpers";
 import "./DriverGroup.css";
 import LoadingScreen from "../../Loading/Loading";
 
-const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+// const BASE_URL = process.env.REACT_APP_AWS_S3_PUBLIC_URL;
+const BASE_URL = "https://prysmsupport.xtractautomation.com/";
 
 export default function DriverGroup() {
   const [NewOrUpdate, setNewOrUpdate] = useState("");
