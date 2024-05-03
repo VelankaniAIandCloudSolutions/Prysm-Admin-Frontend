@@ -7,7 +7,8 @@ import HttpApi from "i18next-http-backend";
 
 // We can localize to any language and any number of languages.
 // const url = process.env.REACT_APP_VELANKANI_API_URL;
-const url = "https://prysmsupportdev.xtractautomation.com/";
+const url = "http://localhost:3000/";
+// const url = "https://prysmsupportdev.xtractautomation.com/";
 
 i18next
 

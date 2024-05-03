@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import "./SideBar.css";
-import {
-  NavLink,
-  useLocation,
-  useOutletContext,
-} from "react-router-dom";
+import { NavLink, useLocation, useOutletContext } from "react-router-dom";
 import { getDecodedToken } from "../../Helpers/validateToken";
 
 export default function MiniDrawer(props) {
@@ -18,7 +14,7 @@ export default function MiniDrawer(props) {
       setActions(routes);
     }
   });
- 
+
   const location = useLocation();
 
   return (

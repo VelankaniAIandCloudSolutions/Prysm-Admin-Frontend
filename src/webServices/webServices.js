@@ -1,7 +1,9 @@
 import axios from "axios";
 
 // const API_URL = process.env.REACT_APP_VELANKANI_API_URL;
-const API_URL = "https://prysmsupportdev.xtractautomation.com/";
+// const API_URL = "https://prysmsupportdev.xtractautomation.com/";
+const API_URL = "http://localhost:3000/";
+
 export const AuthHeader = () => {
   const user = sessionStorage.getItem("user");
   if (user) {
