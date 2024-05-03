@@ -46,6 +46,8 @@ import ProductDocumentCategory from "../AdminPage/ProductDocumentCategory/Produc
 import AddOrUpdateProductDocument from "../AdminPage/ProductDocument/AddOrUpdateProductDocument";
 import TicketStatus from "../AdminPage/TicketStatus/TicketStatus";
 import HomeImage from "../AdminPage/HomeImage/HomeImage";
+import Orders from "../AdminPage/Orders/Orders";
+import OrderDetails from "../AdminPage/Orders/OrderDetails";
 import { GrTicket } from "react-icons/gr";
 import { FaUser } from "react-icons/fa6";
 
@@ -348,6 +350,19 @@ export const totalRoutes = [
     roleId: [1],
     breadcrumb: "HomeImage",
   },
+  {
+    path: "/Orders",
+    element: "Orders",
+    breadcrumb: "Orders",
+    roleId: [1],
+    icon: <i class="fa fa-shopping-cart"></i>,
+  },
+  {
+    path: "/Orders/OrderDetails",
+    element: "OrderDetails",
+    breadcrumb: "OrderDetails",
+    roleId: [1],
+  },
 ];
 
 export const totalElements = {
@@ -399,4 +414,6 @@ export const totalElements = {
   ProductDocument: <ProductDocument />,
   AddOrUpdateProductDocument: <AddOrUpdateProductDocument />,
   HomeImage: <HomeImage />,
+  Orders: <Orders />,
+  OrderDetails: <OrderDetails />,
 };
