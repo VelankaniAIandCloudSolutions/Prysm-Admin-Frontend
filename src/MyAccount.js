@@ -41,7 +41,7 @@ function UserLogin(props) {
       ).toString();
       const userdetails = {
         username: userName,
-        password: encryptdPassword,
+        password: userPassword,
       };
       Login(userdetails, "api/v1/login/").then((data) => {
         if (data) {

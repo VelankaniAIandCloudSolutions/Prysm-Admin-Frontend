@@ -32,7 +32,7 @@ export default function UserLogin(props) {
       ).toString();
       const userdetails = {
         username: userName,
-        password: encryptdPassword,
+        password: password,
       };
       Login(userdetails, "api/v1/login/").then((data) => {
         if (data) {
