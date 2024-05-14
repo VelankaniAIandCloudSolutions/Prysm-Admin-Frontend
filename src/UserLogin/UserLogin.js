@@ -26,13 +26,13 @@ export default function UserLogin(props) {
     sessionStorage.setItem("userName", userName);
     e.preventDefault();
     if (userName !== "" && password !== "") {
-      let encryptdPassword = CryptoJS.AES.encrypt(
-        password,
-        "cipherAce"
-      ).toString();
+      // let encryptdPassword = CryptoJS.AES.encrypt(
+      //   password,
+      //   "cipherAce"
+      // ).toString();
       const userdetails = {
         username: userName,
-        password: encryptdPassword,
+        password: password,
       };
       Login(userdetails, "api/v1/login/").then((data) => {
         if (data) {

@@ -15,6 +15,7 @@ import { toast } from "react-toastify";
 import LoadingScreen from "../../Loading/Loading";
 import showPwdImg from "../../assets/Icons/closedeye.png";
 import hidePwdImg from "../../assets/Icons/openeye.png";
+import bcrypt from "bcryptjs";
 var CryptoJS = require("crypto-js");
 
 export default function UserModal() {
@@ -360,13 +361,58 @@ export default function UserModal() {
     });
   };
 
+  // const changePwdSubmitClick = async () => {
+  //   setIsLoading(true);
+  //   setCurrPwd("");
+  //   setNewPwd("");
+
+  //   console.log("user password", userPassword);
+
+  //   // let x = decryptData(userPassword);
+  //   // console.log("asasasas", x);
+
+  //   let decryptpassword = decryptData(userPassword);
+  //   console.log("decrypted password =", decryptpassword);
+
+  //   if (ValidateChangePwd()) {
+  //     console.log("current password value=", currPwd);
+  //     if (decryptpassword === currPwd) {
+  //       let pwdchange = {
+  //         password: newPwd,
+  //       };
+  //       await putCrudApi(
+  //         `api/v1/user_account/user_acc_psw/${userId}`,
+  //         pwdchange
+  //       ).then((data) => {
+  //         if (data) {
+  //           setUpdateUI(!updateUI);
+  //           notifyUserDetails("pwdSucc");
+  //           setModalOpen(false);
+  //         } else {
+  //           notifyUserDetails("error");
+  //         }
+  //       });
+  //     } else {
+  //       notifyUserDetails("pwdFail");
+  //     }
+  //   }
+  //   setIsLoading(false);
+  // };
+  async function verifyPassword(password, hashedPassword) {
+    const isMatch = await bcrypt.compare(password, hashedPassword);
+    return isMatch;
+  }
   const changePwdSubmitClick = async () => {
     setIsLoading(true);
     setCurrPwd("");
     setNewPwd("");
-    let decryptpassword = decryptData(userPassword);
+
+    const isMatch = await verifyPassword(currPwd, userPassword);
+
+    // let decryptpassword = decryptData(userPassword);
+    console.log("si match value=", isMatch);
     if (ValidateChangePwd()) {
-      if (decryptpassword === currPwd) {
+      if (isMatch) {
         let pwdchange = {
           password: newPwd,
         };
@@ -378,6 +424,7 @@ export default function UserModal() {
             setUpdateUI(!updateUI);
             notifyUserDetails("pwdSucc");
             setModalOpen(false);
+            getUserById();
           } else {
             notifyUserDetails("error");
           }
