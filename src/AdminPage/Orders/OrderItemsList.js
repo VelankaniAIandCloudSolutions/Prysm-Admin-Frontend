@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import OrderItemCustomizations from "./OrderItemCustomizations";
 import axios from "axios";
+import { getCrudApi } from "../../webServices/webServices";
+
+import "./OrderItemsList.css";
 const OrderItemsList = ({ order }) => {
   const [selectedOrderItem, setSelectedOrderItem] = useState(null);
   const [openModal, setOpenModal] = useState(false);
@@ -20,9 +23,13 @@ const OrderItemsList = ({ order }) => {
 
   const handleViewSpecs = async (orderItemId) => {
     try {
-      const response = await axios.get(`/api/products/${orderItemId}/specs`);
-      setSelectedOrderItem(response.data);
-      setOpenModal(true);
+      await getCrudApi(
+        `api/v1/orders/order_item_customizations/${orderItemId}`
+      )?.then((data) => {
+        console.log(data);
+        setSelectedOrderItem(data);
+        setOpenModal(true);
+      });
     } catch (error) {
       console.error("Error fetching product specs:", error);
     }
@@ -86,8 +93,8 @@ const OrderItemsList = ({ order }) => {
                     <td>
                       {" "}
                       <button
-                        className="btn btn-sm"
-                        onClick={handleViewSpecs}
+                        className="btn btn-sm btn-secondary"
+                        onClick={() => handleViewSpecs(item.order_item_id)} // Use arrow function
                         disabled={
                           order?.order_items?.order_item_customization_options
                             ?.length === 0
@@ -106,7 +113,7 @@ const OrderItemsList = ({ order }) => {
       {openModal ? (
         <div className="productModalorder">
           <div className="modalContainerorder">
-            <OrderItemCustomizations order_item={order.order_item} />
+            <OrderItemCustomizations orderItem={selectedOrderItem} />
             <div className="footerModalorder">
               <button
                 type="button"

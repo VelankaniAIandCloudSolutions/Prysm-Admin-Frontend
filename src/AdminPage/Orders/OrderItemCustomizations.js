@@ -1,87 +1,48 @@
 import React from "react";
 
+const parsePriceToString = (price) => {
+  const formattedAmount = price?.toLocaleString("en-IN", {
+    style: "currency",
+    currency: "INR",
+  });
+  return formattedAmount;
+};
+
+const CustomizationOptions = ({ options }) => (
+  <table className="table table-hover">
+    <thead>
+      <tr>
+        <th>Specification</th>
+        <th>Unit Price</th>
+        <th>Quantity</th>
+        <th>Net Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {options.map((option) => (
+        <tr key={option.order_item_customization_option_id}>
+          <td>{option.customization_option?.name}</td>
+          <td>{parsePriceToString(option.customization_option?.price)}</td>
+          <td>{option.quantity}</td>
+          <td>{parsePriceToString(option.net_customization_price)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+);
+
 const OrderItemCustomizations = ({ orderItem }) => {
   return (
-    <table className="table">
-      <thead>
-        <tr>
-          <th scope="col">Option</th>
-          <th scope="col">Selection</th>
-          <th scope="col">Quantity</th>
-        </tr>
-      </thead>
-      <tbody>
-        {orderItem.order_item_customization_options.map(
-          (selectedCustom, index) => (
-            <tr key={index}>
-              <td>
-                <span>
-                  {selectedCustom.customization_option &&
-                  selectedCustom.customization_option.customization_category &&
-                  selectedCustom.customization_option.customization_category
-                    .parent_customization_category &&
-                  selectedCustom.customization_option.customization_category
-                    .parent_customization_category.name !== "Components" ? (
-                    <strong>
-                      {
-                        selectedCustom.customization_option
-                          .customization_category.parent_customization_category
-                          .name
-                      }
-                    </strong>
-                  ) : null}
-                  {selectedCustom.customization_option &&
-                  selectedCustom.customization_option.customization_category ? (
-                    <span>
-                      {selectedCustom.customization_option
-                        .customization_category.parent_customization_category &&
-                      selectedCustom.customization_option.customization_category
-                        .parent_customization_category.name !== "Components" ? (
-                        <span>
-                          {
-                            selectedCustom.customization_option
-                              .customization_category.name
-                          }
-                        </span>
-                      ) : (
-                        <span>{selectedCustom.customization_option.name}</span>
-                      )}
-                    </span>
-                  ) : null}
-                  {!selectedCustom.customization_option && (
-                    <div>{selectedCustom.customization_option.name}</div>
-                  )}
-                </span>
-              </td>
-              <td>
-                {selectedCustom.customization_option && (
-                  <span>
-                    {selectedCustom.customization_option
-                      .customization_category &&
-                    selectedCustom.customization_option.customization_category
-                      .parent_customization_category &&
-                    selectedCustom.customization_option.customization_category
-                      .parent_customization_category.name !== "Components" ? (
-                      <strong>
-                        {
-                          selectedCustom.customization_option
-                            .customization_category.name
-                        }
-                      </strong>
-                    ) : null}
-                    <span>{selectedCustom.customization_option.name}</span>
-                  </span>
-                )}
-                {!selectedCustom.customization_option && (
-                  <div>{selectedCustom.customization_option.name}</div>
-                )}
-              </td>
-              <td>{selectedCustom.quantity}</td>
-            </tr>
-          )
-        )}
-      </tbody>
-    </table>
+    <div className="container">
+      {orderItem.order_item_customization_options.map((category) => (
+        <div key={category.name} className="my-4">
+          <h5 className="mb-3">{category.name}</h5>
+          <CustomizationOptions
+            options={category.order_item_customization_options}
+          />
+        </div>
+      ))}
+    </div>
   );
 };
 
