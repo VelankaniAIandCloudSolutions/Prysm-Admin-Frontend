@@ -35,10 +35,10 @@ function UserLogin(props) {
     sessionStorage.setItem("userName", userName);
     e.preventDefault();
     if (userName !== "" && userPassword !== "") {
-      let encryptdPassword = CryptoJS.AES.encrypt(
-        userPassword,
-        "cipherAce"
-      ).toString();
+      // let encryptdPassword = CryptoJS.AES.encrypt(
+      //   userPassword,
+      //   "cipherAce"
+      // ).toString();
       const userdetails = {
         username: userName,
         password: userPassword,
