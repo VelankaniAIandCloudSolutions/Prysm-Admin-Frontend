@@ -50,7 +50,7 @@ import Orders from "../AdminPage/Orders/Orders";
 import OrderDetails from "../AdminPage/Orders/OrderDetails";
 import { GrTicket } from "react-icons/gr";
 import { FaUser } from "react-icons/fa6";
-
+import CustomDiscount from "../AdminPage/Orders/CustomDiscount";
 export const componentsregistry = {
   Home: <Home />,
   Support: <Support />,
@@ -351,11 +351,18 @@ export const totalRoutes = [
     breadcrumb: "HomeImage",
   },
   {
+    path: "/CustomDiscount",
+    element: "CustomDiscount",
+    breadcrumb: "CustomDiscount",
+    roleId: [1],
+    icon: <i className="fa fa-tag"></i>,
+  },
+  {
     path: "/Orders",
     element: "Orders",
     breadcrumb: "Orders",
     roleId: [1],
-    icon: <i class="fa fa-shopping-cart"></i>,
+    icon: <i className="fa fa-shopping-cart"></i>,
   },
   {
     path: "/Orders/OrderDetails",
@@ -415,5 +422,6 @@ export const totalElements = {
   AddOrUpdateProductDocument: <AddOrUpdateProductDocument />,
   HomeImage: <HomeImage />,
   Orders: <Orders />,
+  CustomDiscount: <CustomDiscount />,
   OrderDetails: <OrderDetails />,
 };
