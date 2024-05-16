@@ -82,17 +82,22 @@ function CustomDiscount() {
       const token = localStorage.getItem("token");
       const response = await postCrudApi(
         "api/v1/orders/updateDiscountStatus",
-        { discountId: selectedOrder.id, action: actionStatus },
+        {
+          discountId: selectedOrder.id,
+          action: actionStatus,
+          order: selectedOrder,
+        },
         { headers: { Authorization: `Bearer ${token}` } }
       );
       console.log(response.data);
     } catch (err) {
-      setError(error.message);
+      console.log("The email is not sending");
     }
   };
 
   const handleActionClick = (action, order) => {
     setSelectedOrder(order);
+    console.log("action order", order);
     if (action === "Approve") {
       setActionStatus("Approve");
       setModalMessage("Are you sure you want to approve this order?");
@@ -117,6 +122,7 @@ function CustomDiscount() {
   };
 
   const handleOpenModal = (order) => {
+    console.log("Order", order);
     setSelectedOrder(order);
     setOrderModal(true);
   };
@@ -153,17 +159,17 @@ function CustomDiscount() {
         label: "Sales Person",
         options: {
           customBodyRender: (value, tableMeta, updateValue) => {
-            const firstName = value[0].user_info.first_name;
+            const firstName = value.user_info.first_name;
             return firstName;
           },
         },
       },
       {
-        name: "order",
+        name: "order_info",
         label: "Order",
         options: {
           customBodyRender: (value, tableMeta, updateValue) => {
-            const order = customDiscounts[tableMeta.rowIndex];
+            const order = value;
             return (
               <button
                 className="btn btn-secondary"
@@ -177,14 +183,17 @@ function CustomDiscount() {
       },
 
       {
-        name: "actions",
+        name: "order",
         label: "Actions",
         options: {
           filter: false,
           sort: false,
           empty: true,
-          customBodyRender: (value, tableMeta, updateValue) => {
-            const order = customDiscounts[tableMeta.rowIndex];
+          customBodyRender: (_, tableMeta, updateValue) => {
+            const order =
+              customDiscounts[
+                tableMeta.currentTableData[tableMeta.rowIndex]?.index
+              ];
             return (
               <>
                 <button
@@ -260,7 +269,6 @@ function CustomDiscount() {
               <p>Rejected ({rejectedCount})</p>
               <div className="open_count_div"></div>
             </div>
-            <p>({approvalStatus})</p>
           </div>
         </div>
 
@@ -297,41 +305,37 @@ function CustomDiscount() {
                   </tr>
                 </thead>
                 <tbody>
-                  {selectedOrder?.order_info[0].order_items?.map(
-                    (item, itemIndex) => (
-                      <tr key={itemIndex}>
-                        <td>
-                          {item.product.product_image_path && (
-                            <img
-                              className="img-fluid rounded"
-                              src={item.product.product_image_path}
-                              alt={item.product.name}
-                              width="50"
-                              height="50"
-                            />
-                          )}
-                          <a
-                            href={`/products/${item.product.product_category_id}/${item.product_id}`}
-                            style={{ textDecoration: "none", color: "black" }}
-                          >
-                            {item.product.name}
-                          </a>
-                        </td>
-                        <td>{item.quantity}</td>
-                        <td>
-                          {selectedOrder.order_info[0].total_amount.toLocaleString(
-                            "en-IN"
-                          )}
-                        </td>
-                        <td>
-                          {(
-                            item.quantity *
-                            selectedOrder.order_info[0].total_amount
-                          ).toLocaleString("en-IN")}
-                        </td>
-                      </tr>
-                    )
-                  )}
+                  {selectedOrder?.order_items?.map((item, itemIndex) => (
+                    <tr key={itemIndex}>
+                      <td>
+                        {item.product.product_image_path && (
+                          <img
+                            className="img-fluid rounded"
+                            src={item.product.product_image_path}
+                            alt={item.product.name}
+                            width="50"
+                            height="50"
+                          />
+                        )}
+                        <a
+                          href={`/products/${item.product.product_category_id}/${item.product_id}`}
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
+                          {item.product.name}
+                        </a>
+                      </td>
+                      <td>{item.quantity}</td>
+                      <td>
+                        ₹{selectedOrder.total_amount.toLocaleString("en-IN")}
+                      </td>
+                      <td>
+                        ₹
+                        {(
+                          item.quantity * selectedOrder.total_amount
+                        ).toLocaleString("en-IN")}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
