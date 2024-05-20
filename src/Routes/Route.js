@@ -51,6 +51,8 @@ import OrderDetails from "../AdminPage/Orders/OrderDetails";
 import { GrTicket } from "react-icons/gr";
 import { FaUser } from "react-icons/fa6";
 import CustomDiscount from "../AdminPage/Orders/CustomDiscount";
+import PaymentTerm from "../AdminPage/PaymentTerm/PaymentTerm";
+
 export const componentsregistry = {
   Home: <Home />,
   Support: <Support />,
@@ -351,6 +353,12 @@ export const totalRoutes = [
     breadcrumb: "HomeImage",
   },
   {
+    path: "/Admin/PaymentTerm",
+    element: "PaymentTerm",
+    roleId: [1],
+    breadcrumb: "PaymentTerm",
+  },
+  {
     path: "/CustomDiscount",
     element: "CustomDiscount",
     breadcrumb: "CustomDiscount",
@@ -424,4 +432,5 @@ export const totalElements = {
   Orders: <Orders />,
   CustomDiscount: <CustomDiscount />,
   OrderDetails: <OrderDetails />,
+  PaymentTerm: <PaymentTerm />,
 };

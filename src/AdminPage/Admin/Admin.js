@@ -26,6 +26,7 @@ import { MdOutlineSyncProblem } from "react-icons/md";
 import { GrSystem } from "react-icons/gr";
 import { HiMiniDocumentText } from "react-icons/hi2";
 import { IoDocumentsSharp } from "react-icons/io5";
+import { BiCreditCard } from "react-icons/bi";
 import { FaHouseUser } from "react-icons/fa6";
 
 export default function Admin() {
@@ -86,6 +87,10 @@ export default function Admin() {
 
   const handleProductDocumentCategory = () => {
     navigate("/Admin/ProductDocumentCategory");
+  };
+
+  const handlePaymentTerm = () => {
+    navigate("/Admin/PaymentTerm");
   };
 
   const handleHome = () => {
@@ -175,6 +180,15 @@ export default function Admin() {
         ImageURL: ReviewTicketPic,
         icon: <IoDocumentsSharp />,
         heading: "Document Category",
+        state: "active",
+        iconColor: "adminElementIcon card-icon-color-4",
+      },
+      {
+        colorDiv: "colorDiv4 card-background-color-4",
+        onclick: handlePaymentTerm,
+        ImageURL: ReviewTicketPic,
+        icon: <BiCreditCard />,
+        heading: "Payment Term",
         state: "active",
         iconColor: "adminElementIcon card-icon-color-4",
       },
