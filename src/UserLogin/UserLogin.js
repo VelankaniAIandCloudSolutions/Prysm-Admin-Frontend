@@ -20,7 +20,6 @@ export default function UserLogin(props) {
   const [isLoading, setIsLoading] = useState(false);
 
   const navigate = useNavigate();
-  console.log("hey");
 
   async function handleSubmit(e) {
     setIsLoading(true);
