@@ -16,7 +16,7 @@ import LoadingScreen from "../../Loading/Loading";
 import showPwdImg from "../../assets/Icons/closedeye.png";
 import hidePwdImg from "../../assets/Icons/openeye.png";
 import bcrypt from "bcryptjs";
-var CryptoJS = require("crypto-js");
+import CryptoJS from "crypto-js";
 
 export default function UserModal() {
   const [allRoleId, setAllRoleId] = useState([]);

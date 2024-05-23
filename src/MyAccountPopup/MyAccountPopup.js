@@ -6,6 +6,7 @@ import { Login, getCrudApi } from "../webServices/webServices";
 import { getDecodedToken } from "../Helpers/validateToken";
 import showPwdImg from "../assets/Icons/closedeye.png";
 import hidePwdImg from "../assets/Icons/openeye.png";
+// import CryptoJS from "crypto-js";
 
 export default function MyAccountPopup(props) {
   return (
@@ -34,7 +35,7 @@ function UserLogin(props) {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const navigate = useNavigate();
-  var CryptoJS = require("crypto-js");
+  // var CryptoJS = require("crypto-js");
 
   const handleLogin = async (e) => {
     sessionStorage.setItem("userName", userName);

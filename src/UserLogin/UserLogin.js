@@ -11,7 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { getDecodedToken } from "../Helpers/validateToken";
 import LoadingScreen from "../Loading/Loading";
 
-var CryptoJS = require("crypto-js");
+// var CryptoJS = require("crypto-js");
 
 export default function UserLogin(props) {
   const [userName, setuserName] = useState("");
@@ -20,7 +20,7 @@ export default function UserLogin(props) {
   const [isLoading, setIsLoading] = useState(false);
 
   const navigate = useNavigate();
-
+  console.log("hey");
   async function handleSubmit(e) {
     setIsLoading(true);
     sessionStorage.setItem("userName", userName);
