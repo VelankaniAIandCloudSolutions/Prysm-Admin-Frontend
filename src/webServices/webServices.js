@@ -3,6 +3,8 @@ import axios from "axios";
 // const API_URL = process.env.REACT_APP_VELANKANI_API_URL;
 // const API_URL = "https://prysmsupportdev.xtractautomation.com/";
 const API_URL = "http://localhost:3000/";
+// const PRSMSHOP_API_URL = "https://prysmdev.xtractautomation.com/api/v1";
+const PRSMSHOP_API_URL = "http://127.0.0.1:8000/api/v1";
 
 export const AuthHeader = () => {
   const user = sessionStorage.getItem("user");
@@ -12,6 +14,7 @@ export const AuthHeader = () => {
     return {};
   }
 };
+
 export const Login = (body, path) => {
   return axios
     .post(API_URL + path, body, {
@@ -140,5 +143,53 @@ export const deleteCrudApi = (path) => {
         console.error("There was an error!", error?.message);
         return null;
       }
+    });
+};
+
+export const getCrudShopApi = (path, body) => {
+  return axios
+    .get(`${PRSMSHOP_API_URL}${path}`)
+    .then((response) => {
+      return response.data;
+    })
+    .catch((error) => {
+      if (error?.response?.status === 500) {
+        console.error("Internal Server Error");
+      } else {
+        console.error(error);
+      }
+      return null;
+    });
+};
+
+export const postCrudShopApi = (path, data) => {
+  return axios
+    .post(`${PRSMSHOP_API_URL}${path}`, data)
+    .then((response) => {
+      return response.data;
+    })
+    .catch((error) => {
+      if (error?.response?.status === 500) {
+        console.error("Internal Server Error");
+      } else {
+        console.error(error);
+      }
+      return null;
+    });
+};
+
+export const updateCrudShopApi = (path, data) => {
+  return axios
+    .put(`${PRSMSHOP_API_URL}${path}`, data)
+    .then((response) => {
+      return response.data;
+    })
+    .catch((error) => {
+      if (error?.response?.status === 500) {
+        console.error("Internal Server Error");
+      } else {
+        console.error(error);
+      }
+      return null;
     });
 };

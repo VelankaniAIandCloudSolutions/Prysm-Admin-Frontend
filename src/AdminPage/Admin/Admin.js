@@ -50,6 +50,9 @@ export default function Admin() {
   const handleUserManagements = () => {
     navigate("/Admin/UserManagements");
   };
+  const handleCustomerManagements = () => {
+    navigate("/Admin/CustomerManagements");
+  };
   const handleFooterConfiguration = () => {
     navigate("/Admin/FooterConfiguration");
   };
@@ -251,6 +254,15 @@ export default function Admin() {
         heading: "Home",
         state: "active",
         iconColor: "adminElementIcon card-icon-color-3",
+      },
+      {
+        colorDiv: "colorDiv2 card-background-color-10",
+        onclick: handleCustomerManagements,
+        ImageURL: ReviewTicketPic,
+        icon: <FaUsers />,
+        heading: "Customer Management",
+        state: "active",
+        iconColor: "adminElementIcon card-icon-color-10",
       },
     ],
   };
