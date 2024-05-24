@@ -10,6 +10,7 @@ jobs:
     env:
       AWS_S3_BUCKET_NAME: prysm-support-prod
       AWS_CF_DISTRIBUTION_ID: E30R01KTBY6SWG
+      CI: false 
     strategy:
       matrix:
         node-version: [16.4]
