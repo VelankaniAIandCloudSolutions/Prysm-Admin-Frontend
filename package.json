@@ -46,7 +46,8 @@
     "styled-components": "^5.3.10",
     "use-react-router-breadcrumbs": "^4.0.1",
     "vm-browserify": "^1.1.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
   },
   "scripts": {
     "start": "craco start",
