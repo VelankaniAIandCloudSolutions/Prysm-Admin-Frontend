@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 import { getDecodedToken } from "./Helpers/validateToken";
 import showPwdImg from "./assets/Icons/closedeye.png";
 import hidePwdImg from "./assets/Icons/openeye.png";
+// import CryptoJS from "crypto-js";
 
 export default function MyAccount() {
   return (
@@ -30,7 +31,7 @@ function UserLogin(props) {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const navigate = useNavigate();
-  var CryptoJS = require("crypto-js");
+  // var CryptoJS = require("crypto-js");
   const handleLogin = (e) => {
     sessionStorage.setItem("userName", userName);
     e.preventDefault();
