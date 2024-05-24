@@ -9,6 +9,7 @@ import HttpApi from "i18next-http-backend";
 // const url = process.env.REACT_APP_VELANKANI_API_URL;
 // const url = "http://localhost:3000/";
 // const url = "https://prysmsupportdev.xtractautomation.com/";
+let url;
 if (process.env.NODE_ENV === "production") {
   url = "https://prysmsupportdev.xtractautomation.com/";
 } else {
