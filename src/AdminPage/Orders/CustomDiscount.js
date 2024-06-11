@@ -107,6 +107,7 @@ function CustomDiscount() {
       setModalMessage("Are you sure you want to reject this order?");
       setOpenModal(true);
     }
+    this.fetchCustomDiscounts();
   };
 
   const onCloseModal = () => {
@@ -181,8 +182,10 @@ function CustomDiscount() {
           },
         },
       },
+    ];
 
-      {
+    if (approvalStatus === "Pending") {
+      columns.push({
         name: "order",
         label: "Actions",
         options: {
@@ -212,11 +215,7 @@ function CustomDiscount() {
             );
           },
         },
-      },
-    ];
-
-    if (approvalStatus === "Approved" || approvalStatus === "Rejected") {
-      columns = columns.filter((column) => column.name !== "actions");
+      });
     }
 
     return columns;
@@ -236,6 +235,8 @@ function CustomDiscount() {
     },
   };
 
+  const title = `Discount - ${approvalStatus}`;
+
   return (
     <>
       <div className="Ticket_Div">
@@ -247,8 +248,8 @@ function CustomDiscount() {
               }`}
               onClick={handlePendingClick}
             >
-              <p>Pending ({pendingCount})</p>
-              <div className="All_Button_count_div"></div>
+              <p>Pending </p>
+              <div className="All_Button_count_div">{pendingCount}</div>
             </div>
             <div
               className={`customDiv1 ${
@@ -256,9 +257,9 @@ function CustomDiscount() {
               }`}
               onClick={handleApproveClick}
             >
-              <p>Approved ({approvedCount})</p>
+              <p>Approved </p>
 
-              <div className="In-process_count_div"></div>
+              <div className="In-process_count_div">{approvedCount}</div>
             </div>
             <div
               className={`customDiv2 ${
@@ -266,8 +267,8 @@ function CustomDiscount() {
               }`}
               onClick={handleRejectClick}
             >
-              <p>Rejected ({rejectedCount})</p>
-              <div className="open_count_div"></div>
+              <p>Rejected</p>
+              <div className="open_count_div">{rejectedCount}</div>
             </div>
           </div>
         </div>
@@ -276,7 +277,7 @@ function CustomDiscount() {
           <div className="table-scroll">
             <MUIDataTable
               className="muitable"
-              title={"Discount"}
+              title={title}
               data={
                 approvalStatus === "Pending"
                   ? pendingDiscounts

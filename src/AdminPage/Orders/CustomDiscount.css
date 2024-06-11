@@ -183,3 +183,18 @@
     background: #dddddd;
   }
   
+  .All_NoFilter_Button {
+    align-items: center;
+    justify-content: center;
+    border-top: 25px solid rgb(79, 52, 92);
+    width: 75%;
+    box-shadow: rgba(0, 0, 0, 0.24) -1px 2px 3px;
+    height: 70px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #eeeeee80;
+    padding: 1%;
+  }
+  
